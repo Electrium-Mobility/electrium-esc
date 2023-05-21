@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MC74VHC1GT66
+#/2035103/1084096/2.50/5/3/Integrated Circuit
+DEF MC74VHC1GT66 IC 0 30 Y Y 1 F N
+F0 "IC" 1750 300 50 H V L CNN
+F1 "MC74VHC1GT66" 1750 200 50 H V L CNN
+F2 "SOT95P275X110-5N" 1750 100 50 H I L CNN
+F3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/148919/ETL/MC74VHC1GT66.html" 1750 0 50 H I L CNN
+F4 "Analogue Switch ICs LOG CMOS MLTIPLXR ANALOG" 1750 -100 50 H I L CNN "Description"
+F5 "1.1" 1750 -200 50 H I L CNN "Height"
+F6 "onsemi" 1750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MC74VHC1GT66" 1750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/MC74VHC1GT66?qs=YA77FY0Msbu77w80Y0DYXA%3D%3D" 1750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN/OUT_XA 1 0 0 200 R 50 50 0 0 P
+X OUT/IN_YA 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X ON/OFF_CONTROL 4 1900 0 200 L 50 50 0 0 P
+X VCC 5 1900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1700 100 1700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
