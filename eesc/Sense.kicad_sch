@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 0e0991e0-ec13-472f-93e8-99453239d229)
+  (uuid df2590bd-089e-4ff8-abb0-546a1f41df88)
 
   (paper "A4")
 
@@ -1171,14 +1171,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e0bffc8-878b-41ba-9e4f-e63cff1fe6d3)
   )
-  (text "Current Sensing is implemented to figure out rotor position\nand apply proper signals to maximimze torque on motor"
-    (at 73.025 26.67 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 936d00a5-6aa2-49a9-b6de-be44b8a60b63)
+  (text "Current Sense" (at 146.05 26.67 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid ab7106c7-6e7f-4c11-8596-fd41e4f2d6e9)
   )
   (text "BEMF A\n" (at 129.54 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid adf87b57-9b06-4ec0-a96d-9c2318d827df)
+  )
+  (text "BEMF Sense" (at 71.12 26.67 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid b1b1ac3d-d4b5-44c5-a4a3-9938e53146cd)
   )
   (text "Current Sense B\n" (at 241.3 115.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
