@@ -562,6 +562,11 @@
   )
 
 
+  (hierarchical_label "Voltage_1" (shape input) (at 189.23 45.72 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b77fd043-c13c-4595-84af-e61dcf20d147)
+  )
+
   (symbol (lib_id "MCU_ST_STM32F4:STM32F405RGTx") (at 171.45 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53008d65-1feb-482d-a293-90d324e71319)
@@ -642,7 +647,7 @@
     (pin "8" (uuid 4fbac78b-70b3-4aba-90f9-a0b39c7a2d30))
     (pin "9" (uuid 1ce57d52-4c69-4740-a086-fd85748cc565))
     (instances
-      (project "HighLevel"
+      (project "MCU"
         (path "/f67b84bb-fc24-4057-a4d1-5dd671e1b3ff"
           (reference "U1") (unit 1)
         )
