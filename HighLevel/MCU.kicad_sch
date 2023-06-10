@@ -819,7 +819,6 @@
     )
   )
 
-
   (junction (at 203.2 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 011cb756-a67e-413f-8dbe-e4b208f2b4eb)
   )
@@ -1535,10 +1534,10 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F405RGTx") (at 171.45 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53008d65-1feb-482d-a293-90d324e71319)
-    (property "Reference" "U1" (at 175.9459 134.62 0)
+    (property "Reference" "U2" (at 175.9459 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "STM32F405RGTx" (at 175.9459 137.16 0)
+    (property "Value" "STM32F40X_LQFP64" (at 175.9459 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm" (at 156.21 132.08 0)
@@ -1614,7 +1613,7 @@
     (instances
       (project "MCU"
         (path "/f67b84bb-fc24-4057-a4d1-5dd671e1b3ff"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
