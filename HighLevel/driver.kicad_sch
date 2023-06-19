@@ -1548,118 +1548,6 @@
     (uuid e13f92a1-6ae1-4059-b3cf-d0660c8e8dd0)
   )
 
-  (global_label "SENS_2" (shape input) (at 90.17 91.44 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1135258d-8d9c-42bd-96cd-5822112f7adf)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 80.1886 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "HS3" (shape input) (at 200.66 71.12 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 189391b3-27ae-4190-84f1-0693b37bf940)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 194.0047 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "HS2" (shape input) (at 114.3 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2a095e25-d6ef-4f95-a95f-0ddae1dcb5ed)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 120.9553 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "HS1" (shape input) (at 60.96 92.71 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2e524d67-edba-4c20-8b14-2e941cce4dc8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 67.6153 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "HS2" (shape input) (at 173.99 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 367190ce-2afd-40c5-8aa0-acab1a12dec4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 180.6453 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LO2" (shape input) (at 176.53 54.61 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 379877ca-0594-4e87-a49e-093f0eb3efa1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 183.0039 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "SENS_1" (shape input) (at 36.83 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3ce08e20-0a19-4ba6-b038-f141b9523ff4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.8486 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "HI2" (shape input) (at 176.53 62.23 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4af3148d-f8ed-4eb8-b929-70431d2278d5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 182.5806 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "HO3" (shape input) (at 220.98 59.69 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4cc542f0-b1ec-4ee7-9a6e-5ab203fcf9d1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 214.2037 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "SENS_FILTER" (shape input) (at 171.45 123.19 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 54c22cf5-7fd7-4a1f-9ab5-2a43ecfc68a3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 186.33 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "HI1" (shape input) (at 102.87 62.23 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5b786eb4-3abe-4c21-88b8-c5391ed2630c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 108.9206 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LO1" (shape input) (at 102.87 54.61 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6003fd0a-6e43-4ad6-81bb-b7da9cf5eba5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 109.3439 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "HS1" (shape input) (at 52.07 71.12 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 61b9ce22-8f0c-4da4-91f0-6fa7a051f008)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 45.4147 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "HS2" (shape input) (at 125.73 71.12 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6686ac2c-f0d4-42fe-9d64-8c265b3c034b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.0747 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "HI3" (shape input) (at 251.46 62.23 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7a7e02a3-d694-4fc4-847a-867b0e340498)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 257.5106 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LI3" (shape input) (at 251.46 59.69 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 836c4080-0e15-4679-b5fa-4dc0a452827d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 257.2082 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "V_IN" (shape input) (at 269.24 99.06 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 99fc4bd3-3f3d-4154-bdef-3767a269c877)
@@ -1667,68 +1555,106 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "SENS_SUPPLY" (shape input) (at 245.11 99.06 180) (fields_autoplaced)
+
+  (hierarchical_label "LO1" (shape input) (at 102.87 54.61 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 16d6861b-c8b8-4794-ad2e-5c3379483389)
+  )
+  (hierarchical_label "HS2" (shape input) (at 114.3 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 24a58805-4355-4eff-91dd-da3ccde49736)
+  )
+  (hierarchical_label "HI1" (shape input) (at 102.87 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 3e6491b0-6807-4124-a06b-d3dfa25d4323)
+  )
+  (hierarchical_label "HS2" (shape input) (at 173.99 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 3fb6fd45-ad11-4a1a-ac4f-710cbc734cd9)
+  )
+  (hierarchical_label "LO2" (shape input) (at 176.53 54.61 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 45f04f94-7b55-4209-82b5-5504cd6e3491)
+  )
+  (hierarchical_label "HS2" (shape input) (at 125.73 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a3fefc23-8ff7-4f7d-8414-8b21dcf6ddc4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 229.1414 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
+    (uuid 474efd10-240c-4e63-b3c2-ae43b46b19dc)
   )
-  (global_label "LI1" (shape input) (at 102.87 59.69 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b337adc6-b388-4116-a9ea-e3aa8740210a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 108.6182 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LO3" (shape input) (at 251.46 54.61 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid bc24b1a0-49a0-4259-9c56-7d5a91d1f06c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 257.9339 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "SENS_FILTER" (shape input) (at 111.76 125.73 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d0c607d5-40eb-4f63-aade-035a7fc39eaa)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.64 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LI2" (shape input) (at 176.53 59.69 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d597ddaf-168a-49e8-ac31-506a36c3b033)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 182.2782 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "HO2" (shape input) (at 146.05 59.69 180) (fields_autoplaced)
+  (hierarchical_label "HO2" (shape input) (at 146.05 59.69 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d74ffed2-3c6e-406f-b06e-6af4007ade18)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 139.2737 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
+    (uuid 5a3c13fb-edce-45ce-b547-740459a1a797)
   )
-  (global_label "HO1" (shape input) (at 72.39 59.69 180) (fields_autoplaced)
+  (hierarchical_label "SENS_SUPPLY" (shape input) (at 245.11 99.06 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid db7cd683-3bda-4907-aa54-ae1fa4c6a10e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 65.6137 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
+    (uuid 5a59de93-7972-4134-9f54-6c4617fb6d03)
   )
-  (global_label "SENS_2" (shape input) (at 149.86 88.9 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid df2612aa-d4b9-4b4f-9b7c-952cb677147d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 139.8786 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "SENS_FILTER" (shape input) (at 58.42 127 0) (fields_autoplaced)
+  (hierarchical_label "LO3" (shape input) (at 251.46 54.61 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fc679e4d-b6ca-48da-8b97-9ad29877622f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 73.3 127 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
+    (uuid 5a91d873-2ed7-4c5a-8c6d-fb9a3c811748)
+  )
+  (hierarchical_label "HO1" (shape input) (at 72.39 59.69 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6281f559-8927-4a32-a6f0-c62d0c757a16)
+  )
+  (hierarchical_label "SENS_2" (shape input) (at 90.17 91.44 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 659c9698-60db-44da-8bc5-04cb819af317)
+  )
+  (hierarchical_label "HI2" (shape input) (at 176.53 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 67a98774-256f-4253-8a34-8d52047a26bc)
+  )
+  (hierarchical_label "SENS_FILTER" (shape input) (at 171.45 123.19 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 74aadcb5-2727-4cf8-ab8b-a5813a6f8bd3)
+  )
+  (hierarchical_label "HS1" (shape input) (at 60.96 92.71 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 95352363-1d73-42bc-b900-bb8c7db3d946)
+  )
+  (hierarchical_label "SENS_FILTER" (shape input) (at 58.42 127 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 96670f3a-c880-493e-ad52-925e5c712073)
+  )
+  (hierarchical_label "HS1" (shape input) (at 52.07 71.12 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 96c40114-22b5-45b4-95bd-4672e76cf195)
+  )
+  (hierarchical_label "SENS_1" (shape input) (at 36.83 92.71 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a471b997-69a6-42eb-ab43-8ac2e9216e44)
+  )
+  (hierarchical_label "SENS_2" (shape input) (at 149.86 88.9 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid bae72b49-d579-4ced-823e-13475ab773bf)
+  )
+  (hierarchical_label "SENS_FILTER" (shape input) (at 111.76 125.73 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid baeda078-9658-4e98-a101-2e3118f78916)
+  )
+  (hierarchical_label "LI2" (shape input) (at 176.53 59.69 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c4d4c285-720e-43c1-8fd9-3ff65b7f4be9)
+  )
+  (hierarchical_label "HI3" (shape input) (at 251.46 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d15e48c5-3977-4b78-87f2-3308b53fc33e)
+  )
+  (hierarchical_label "HS3" (shape input) (at 200.66 71.12 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d7298680-03dc-490b-90b5-ae6ada3094b5)
+  )
+  (hierarchical_label "LI3" (shape input) (at 251.46 59.69 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e5b2e389-4760-490f-9b21-1cb0c91f9027)
+  )
+  (hierarchical_label "HO3" (shape input) (at 220.98 59.69 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ee334c9e-8c6f-4509-a872-6b22c7feedcb)
+  )
+  (hierarchical_label "LI1" (shape input) (at 102.87 59.69 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f6f48ce6-082e-4a7d-8aba-bef3cff8d7e8)
   )
 
   (symbol (lib_id "Device:C") (at 88.9 176.53 180) (unit 1)
@@ -1740,7 +1666,7 @@
     (property "Value" "2.2u" (at 92.71 178.435 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 87.9348 172.72 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 87.9348 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 176.53 0)
@@ -1749,6 +1675,11 @@
     (pin "1" (uuid 9f7c9844-1419-49da-be41-5abbd5d2d1df))
     (pin "2" (uuid 1ad18ed0-0cc1-4163-a191-da5c5c8a128f))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C13") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C13") (unit 1)
@@ -1766,7 +1697,7 @@
     (property "Value" "UCC27210DDA" (at 161.29 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P600X170-9N" (at 170.18 149.53 0)
+    (property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm" (at 170.18 149.53 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/ucc27210" (at 170.18 249.53 0)
@@ -1803,6 +1734,11 @@
     (pin "8" (uuid e6f2e627-8c9a-484c-914d-73214f2272e3))
     (pin "9" (uuid 2a7bcf97-3a5a-4971-bbb1-6978f6a6ef91))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "J2") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "J2") (unit 1)
@@ -1820,7 +1756,7 @@
     (property "Value" "22u" (at 83.82 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 83.82 165.1 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 83.82 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 165.1 0)
@@ -1829,6 +1765,11 @@
     (pin "1" (uuid 374efa9d-b47b-4f11-8052-dea4c2c784a4))
     (pin "2" (uuid 3e344f0e-a8b7-416c-897a-d00832b8eff1))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "L1") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "L1") (unit 1)
@@ -1846,7 +1787,7 @@
     (property "Value" "UCC27210DDA" (at 236.22 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P600X170-9N" (at 245.11 149.53 0)
+    (property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm" (at 245.11 149.53 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/ucc27210" (at 245.11 249.53 0)
@@ -1883,6 +1824,11 @@
     (pin "8" (uuid e8b784be-9768-4835-a43a-9db27da1521b))
     (pin "9" (uuid 611608aa-216b-4227-bbbb-021d10ac36f0))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "J3") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "J3") (unit 1)
@@ -1908,6 +1854,11 @@
     )
     (pin "1" (uuid beeaaadf-5353-421a-bf73-67faf6af11f4))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR05") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR05") (unit 1)
@@ -1933,6 +1884,11 @@
     )
     (pin "1" (uuid 4bcf421d-efe2-4aef-b07d-1a3c26d7a849))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR03") (unit 1)
@@ -1958,6 +1914,11 @@
     )
     (pin "1" (uuid 5ba97e70-e026-4a5e-8097-564d72b6789e))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR021") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR021") (unit 1)
@@ -1975,7 +1936,7 @@
     (property "Value" "100n" (at 59.69 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 56.8452 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 56.8452 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.88 62.23 0)
@@ -1984,6 +1945,11 @@
     (pin "1" (uuid b493ab18-25ee-4986-aebc-86cefc1c70f7))
     (pin "2" (uuid 1e5a6aa0-225f-4d70-9f25-8ad314f4755d))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C2") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C2") (unit 1)
@@ -2009,6 +1975,11 @@
     )
     (pin "1" (uuid 94a8aa9a-199e-4ea8-8462-8c8b23967fa8))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR014") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR014") (unit 1)
@@ -2034,6 +2005,11 @@
     )
     (pin "1" (uuid d3a95242-6fcb-4e06-bb2d-851e62ac2eba))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR04") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR04") (unit 1)
@@ -2051,7 +2027,7 @@
     (property "Value" "56k" (at 52.07 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 52.07 94.488 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 52.07 94.488 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 92.71 0)
@@ -2060,6 +2036,11 @@
     (pin "1" (uuid 8d28cbcc-0568-4dd2-845e-06017a447f00))
     (pin "2" (uuid 083a2395-6ced-43c6-989e-30c28c9ad51d))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R1") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R1") (unit 1)
@@ -2085,6 +2066,11 @@
     )
     (pin "1" (uuid f331c9e5-bcf8-4ed2-8d89-4d2bf8ada51b))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR01") (unit 1)
@@ -2102,7 +2088,7 @@
     (property "Value" "10k" (at 67.31 178.435 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 66.548 176.53 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 66.548 176.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 176.53 0)
@@ -2111,6 +2097,11 @@
     (pin "1" (uuid d6b3ebfb-9e8c-47a7-bb6b-422395a0d570))
     (pin "2" (uuid 31b2bf79-52ee-49cd-bdaa-c3d0f5a824d1))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R10") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R10") (unit 1)
@@ -2128,7 +2119,7 @@
     (property "Value" "100n" (at 165.1 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 168.91 104.4448 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 168.91 104.4448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 105.41 0)
@@ -2137,6 +2128,11 @@
     (pin "1" (uuid eb1f6307-1bca-46bc-b0f8-c4664f2d7b18))
     (pin "2" (uuid 49672772-39db-44da-90c2-91d7866e4ac6))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C9") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C9") (unit 1)
@@ -2154,7 +2150,7 @@
     (property "Value" "2.2u" (at 109.22 179.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 106.3752 181.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 106.3752 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 177.8 0)
@@ -2163,6 +2159,11 @@
     (pin "1" (uuid c1793ff1-7ab5-4da2-af54-973821f6d408))
     (pin "2" (uuid 82da02ca-03d9-4c06-9de1-e9a93c766464))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C15") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C15") (unit 1)
@@ -2180,7 +2181,7 @@
     (property "Value" "100n" (at 147.32 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.32 163.5252 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 147.32 163.5252 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 162.56 0)
@@ -2189,6 +2190,11 @@
     (pin "1" (uuid f8498c81-6c5d-4036-9c02-08576f1099a5))
     (pin "2" (uuid 20ae4189-eacf-41ea-a0bf-9f62bd22b851))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C17") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C17") (unit 1)
@@ -2206,7 +2212,7 @@
     (property "Value" "100u" (at 81.28 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 77.47 176.53 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 77.47 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 176.53 0)
@@ -2215,6 +2221,11 @@
     (pin "1" (uuid 610df197-8fb5-46d3-8373-9e4bbfd917f5))
     (pin "2" (uuid 826bd685-36e0-4148-b395-9c90dedc5a51))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C14") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C14") (unit 1)
@@ -2240,6 +2251,11 @@
     )
     (pin "1" (uuid e7cb7437-4bc1-42b8-9988-de8dcd4a6d64))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR024") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR024") (unit 1)
@@ -2257,7 +2273,7 @@
     (property "Value" "UCC27210DDA" (at 87.63 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOIC127P600X170-9N" (at 96.52 149.53 0)
+    (property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm" (at 96.52 149.53 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/ucc27210" (at 96.52 249.53 0)
@@ -2294,6 +2310,11 @@
     (pin "8" (uuid 61a8a97b-2670-4295-a30a-e836a8b53112))
     (pin "9" (uuid 57c3662e-510d-481a-9f1a-0751d3e3c43b))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "J1") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "J1") (unit 1)
@@ -2326,6 +2347,11 @@
     (pin "7" (uuid 95c36a7a-0597-40b0-9e98-6c596ce275aa))
     (pin "8" (uuid 981360dd-995e-4bc0-ad02-15f960c62747))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "U2") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "U2") (unit 1)
@@ -2343,7 +2369,7 @@
     (property "Value" "100n" (at 69.85 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 69.85 163.5252 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 69.85 163.5252 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 162.56 0)
@@ -2352,6 +2378,11 @@
     (pin "1" (uuid dbc2514b-dc6b-4ea8-bb5b-16bac7d74e2c))
     (pin "2" (uuid 4cb1f28a-9c85-4d02-b7c1-39cfb3d77c11))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C12") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C12") (unit 1)
@@ -2369,7 +2400,7 @@
     (property "Value" "2.2u" (at 41.91 179.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 39.0652 181.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 39.0652 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 177.8 0)
@@ -2378,6 +2409,11 @@
     (pin "1" (uuid a9946fab-1b07-468f-bc45-34a6446b9cba))
     (pin "2" (uuid f9e5f2bf-efa2-49a9-8a71-b7211e2fdbbf))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C10") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C10") (unit 1)
@@ -2403,6 +2439,11 @@
     )
     (pin "1" (uuid dd627f14-5fa1-41d4-b2f5-ee4d4d3c5d21))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR016") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR016") (unit 1)
@@ -2420,7 +2461,7 @@
     (property "Value" "100n" (at 208.28 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 205.4352 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 205.4352 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 62.23 0)
@@ -2429,6 +2470,11 @@
     (pin "1" (uuid 63e60d63-41db-4171-9270-3338b42cf24f))
     (pin "2" (uuid bda89b49-34be-4e48-a64a-bcafbfe2e8f8))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C6") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C6") (unit 1)
@@ -2446,7 +2492,7 @@
     (property "Value" "2.2u" (at 170.18 178.435 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 165.4048 172.72 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 165.4048 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 166.37 176.53 0)
@@ -2455,6 +2501,11 @@
     (pin "1" (uuid 57f4533a-8d90-4500-9c26-6e2e8d332f64))
     (pin "2" (uuid e052bdac-9579-4fa2-a743-72873bd2fb7a))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C19") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C19") (unit 1)
@@ -2480,6 +2531,11 @@
     )
     (pin "1" (uuid 7133bcbe-c963-4ad7-b57d-cda8fc5d2e80))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR013") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR013") (unit 1)
@@ -2505,6 +2561,11 @@
     )
     (pin "1" (uuid 5dcda287-90f3-4402-a2c6-c108d296a1e3))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR022") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR022") (unit 1)
@@ -2522,7 +2583,7 @@
     (property "Value" "100n" (at 133.35 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 130.5052 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 130.5052 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 62.23 0)
@@ -2531,6 +2592,11 @@
     (pin "1" (uuid 726facc3-a13e-43fe-8cc3-f50e8380b721))
     (pin "2" (uuid e401557e-5b27-4ad7-9f7d-f0f0bd791832))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C4") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C4") (unit 1)
@@ -2556,6 +2622,11 @@
     )
     (pin "1" (uuid cdfe62c2-0a5f-4a4f-ac66-76d052e40acd))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR07") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR07") (unit 1)
@@ -2573,7 +2644,7 @@
     (property "Value" "MC74VHC1GT66" (at 101.6 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 101.6 115.57 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 101.6 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 101.6 115.57 0)
@@ -2585,6 +2656,11 @@
     (pin "3" (uuid f1c14f86-cfac-4ae5-9dc5-e7ae022de3fd))
     (pin "5" (uuid 643c014d-0cfb-4143-a0c7-b923e376180c))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "U4") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "U4") (unit 1)
@@ -2610,6 +2686,11 @@
     )
     (pin "1" (uuid b2fb78c7-cb40-4631-95bb-2c3e75ad5954))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR020") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR020") (unit 1)
@@ -2635,6 +2716,11 @@
     )
     (pin "1" (uuid 09059de7-060d-42bd-8bac-f526775878a1))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR019") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR019") (unit 1)
@@ -2652,7 +2738,7 @@
     (property "Value" "2.2k" (at 260.35 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 260.35 108.458 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 260.35 108.458 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 106.68 0)
@@ -2661,6 +2747,11 @@
     (pin "1" (uuid cc5bc202-dd2a-4f0c-9c4f-b0ee02e9b982))
     (pin "2" (uuid 97abef1d-bea1-4add-a7e8-7df6a072018e))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R8") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R8") (unit 1)
@@ -2686,6 +2777,11 @@
     )
     (pin "1" (uuid 9cb8ac21-636d-4e74-b38a-c48b2ba8eea2))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR06") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR06") (unit 1)
@@ -2703,7 +2799,7 @@
     (property "Value" "2.2k" (at 52.07 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 52.07 102.108 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 52.07 102.108 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 100.33 0)
@@ -2712,6 +2808,11 @@
     (pin "1" (uuid a72a2677-0530-46f0-8291-314791d63e77))
     (pin "2" (uuid a0d554df-bc59-43f4-8fa7-a00f236632b1))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R2") (unit 1)
@@ -2729,7 +2830,7 @@
     (property "Value" "10k" (at 144.78 178.435 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 144.018 176.53 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 144.018 176.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.24 176.53 0)
@@ -2738,6 +2839,11 @@
     (pin "1" (uuid d8cc0216-85f3-4e14-88af-6cf4cbd544ad))
     (pin "2" (uuid 84e4690a-ea76-4b87-b60f-dd002ad1c740))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R12") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R12") (unit 1)
@@ -2755,7 +2861,7 @@
     (property "Value" "2.2k" (at 165.1 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 165.1 98.298 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 165.1 98.298 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 96.52 0)
@@ -2764,6 +2870,11 @@
     (pin "1" (uuid bcc0f1a0-3a46-47c8-98fb-e1b58b94f605))
     (pin "2" (uuid b7af06cf-6162-4b88-a278-32a5303c6a1a))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R6") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R6") (unit 1)
@@ -2789,6 +2900,11 @@
     )
     (pin "1" (uuid 8d93ebb5-9327-4422-9f0c-d67418d5c14f))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR02") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR02") (unit 1)
@@ -2814,6 +2930,11 @@
     )
     (pin "1" (uuid a752ac3e-1232-4cf3-a736-f124395dfde3))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR017") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR017") (unit 1)
@@ -2839,6 +2960,11 @@
     )
     (pin "1" (uuid 3dc4a2e4-cd7a-4c04-bdaf-895e8e6bf658))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR011") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR011") (unit 1)
@@ -2856,7 +2982,7 @@
     (property "Value" "2.2u" (at 119.38 179.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 116.5352 181.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 116.5352 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 177.8 0)
@@ -2865,6 +2991,11 @@
     (pin "1" (uuid e9d97493-0933-42ea-b2a4-41f6c5386b71))
     (pin "2" (uuid c475d2d2-deef-4422-b14c-907821233694))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C16") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C16") (unit 1)
@@ -2882,7 +3013,7 @@
     (property "Value" "52.3k" (at 66.04 154.305 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 65.278 152.4 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 65.278 152.4 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.5 152.4 0)
@@ -2891,6 +3022,11 @@
     (pin "1" (uuid ab80e1bc-4a2d-4437-a35c-e039b1f5467e))
     (pin "2" (uuid b062a6a4-6bbf-47e4-93de-1309f08b9c50))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R9") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R9") (unit 1)
@@ -2916,6 +3052,11 @@
     )
     (pin "1" (uuid de42b169-7199-4b32-b18d-0f75187b81fe))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR010") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR010") (unit 1)
@@ -2933,7 +3074,7 @@
     (property "Value" "MC74VHC1GT66" (at 48.26 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 48.26 116.84 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 48.26 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 48.26 116.84 0)
@@ -2945,6 +3086,11 @@
     (pin "3" (uuid 0a1be8c4-b3ce-48cd-98fd-8b3129d44ecc))
     (pin "5" (uuid ba1a6ca0-68ea-4522-8310-e4013115774d))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "U3") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "U3") (unit 1)
@@ -2970,6 +3116,11 @@
     )
     (pin "1" (uuid 9144fe74-43a0-4200-8bce-8efb16403140))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR023") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR023") (unit 1)
@@ -2987,7 +3138,7 @@
     (property "Value" "2.2k" (at 105.41 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 105.41 100.838 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 105.41 100.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 99.06 0)
@@ -2996,6 +3147,11 @@
     (pin "1" (uuid 2bfd7dbe-7af3-4266-96ba-4e8b5c4ab344))
     (pin "2" (uuid 6e187ad4-00a4-4e62-8e1c-4feba557e3b7))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R4") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R4") (unit 1)
@@ -3013,7 +3169,7 @@
     (property "Value" "52.3k" (at 143.51 154.305 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 142.748 152.4 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 142.748 152.4 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 152.4 0)
@@ -3022,6 +3178,11 @@
     (pin "1" (uuid 2e882d6c-af92-465f-a8de-783c24e96fc7))
     (pin "2" (uuid 42c0404f-2660-4fd5-9b60-4adc8183a61b))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R11") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R11") (unit 1)
@@ -3039,7 +3200,7 @@
     (property "Value" "56k" (at 165.1 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 165.1 90.678 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 165.1 90.678 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 88.9 0)
@@ -3048,6 +3209,11 @@
     (pin "1" (uuid a6f6788e-2a49-4e94-8716-46d200e9e601))
     (pin "2" (uuid b508b943-a90c-4edc-a1c6-873c655124c2))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R5") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R5") (unit 1)
@@ -3073,6 +3239,11 @@
     )
     (pin "1" (uuid 07cdeae4-48ac-4576-9360-9fd5abbdb0df))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR015") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR015") (unit 1)
@@ -3090,7 +3261,7 @@
     (property "Value" "100n" (at 52.07 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 55.88 108.2548 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 55.88 108.2548 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 109.22 0)
@@ -3099,6 +3270,11 @@
     (pin "1" (uuid 3accc487-4e8d-48ac-a65b-2c87321fef3f))
     (pin "2" (uuid 16fffd59-4824-4faa-b6e2-82fb9ce18c4a))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C7") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C7") (unit 1)
@@ -3124,6 +3300,11 @@
     )
     (pin "1" (uuid dcaa72cd-ac10-47c0-9394-b03944054a59))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR025") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR025") (unit 1)
@@ -3141,7 +3322,7 @@
     (property "Value" "2.2u" (at 196.85 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 194.0052 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 194.0052 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 62.23 0)
@@ -3150,6 +3331,11 @@
     (pin "1" (uuid 1064107a-b2b8-4da4-a4d2-639d603c3d79))
     (pin "2" (uuid 394892e1-092e-4e52-9774-b78c50346a5b))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C5") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C5") (unit 1)
@@ -3175,6 +3361,11 @@
     )
     (pin "1" (uuid c55638b5-331e-4b17-8cc4-69fe8a455ebe))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR018") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR018") (unit 1)
@@ -3192,7 +3383,7 @@
     (property "Value" "22u" (at 161.29 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 161.29 165.1 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 161.29 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 165.1 0)
@@ -3201,6 +3392,11 @@
     (pin "1" (uuid 1b002076-882b-46e1-9e6a-219775f17e3d))
     (pin "2" (uuid 14649088-9453-48b3-a793-18ce6bc3ca9b))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "L2") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "L2") (unit 1)
@@ -3218,7 +3414,7 @@
     (property "Value" "56k" (at 260.35 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 260.35 100.838 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 260.35 100.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 99.06 0)
@@ -3227,6 +3423,11 @@
     (pin "1" (uuid ae9f096c-d5bf-47e6-85b2-9225b9743178))
     (pin "2" (uuid 1dbe4471-9265-4766-8c9c-f1029dcac3ee))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R7") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R7") (unit 1)
@@ -3244,7 +3445,7 @@
     (property "Value" "MC74VHC1GT66" (at 161.29 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 161.29 113.03 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 161.29 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 161.29 113.03 0)
@@ -3256,6 +3457,11 @@
     (pin "3" (uuid 2e8c59d9-d503-4645-8604-7439fd45ad0d))
     (pin "5" (uuid c66c779d-4fd7-41b6-a22a-3e962853f3b4))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "U5") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "U5") (unit 1)
@@ -3273,7 +3479,7 @@
     (property "Value" "100n" (at 105.41 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 109.22 106.9848 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 109.22 106.9848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 107.95 0)
@@ -3282,6 +3488,11 @@
     (pin "1" (uuid b94c6295-f4b8-484f-b829-72304f5c8c7d))
     (pin "2" (uuid 5814fce5-de0d-4363-9cdc-b6f7e3b860bd))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C8") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C8") (unit 1)
@@ -3299,7 +3510,7 @@
     (property "Value" "100u" (at 158.75 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 154.94 176.53 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 154.94 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 176.53 0)
@@ -3308,6 +3519,11 @@
     (pin "1" (uuid 24707891-284b-407a-b1c3-6077f809e091))
     (pin "2" (uuid dbc15d67-b213-4317-8e46-e99dc2ef82c7))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C18") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C18") (unit 1)
@@ -3333,6 +3549,11 @@
     )
     (pin "1" (uuid 5515e9c2-7ffd-4e89-8088-46f03bca083d))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR09") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR09") (unit 1)
@@ -3350,7 +3571,7 @@
     (property "Value" "2.2u" (at 121.92 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 119.0752 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 119.0752 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 62.23 0)
@@ -3359,6 +3580,11 @@
     (pin "1" (uuid bcb4546f-c17b-430d-8dbe-2d5c1bc5922f))
     (pin "2" (uuid aa0413e0-a8a4-43d4-b4b5-e414c6af7355))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C3") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C3") (unit 1)
@@ -3391,6 +3617,11 @@
     (pin "7" (uuid d4aace68-da3e-448f-ab3d-76d72f8d818f))
     (pin "8" (uuid 348a3bc1-5def-4f80-9f42-87afd5f215c4))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "U1") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "U1") (unit 1)
@@ -3416,6 +3647,11 @@
     )
     (pin "1" (uuid 0e6fce7b-2c12-4513-bdf7-e88535a3756e))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR012") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR012") (unit 1)
@@ -3433,7 +3669,7 @@
     (property "Value" "56k" (at 105.41 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 105.41 93.218 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 105.41 93.218 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 91.44 0)
@@ -3442,6 +3678,11 @@
     (pin "1" (uuid 81480c15-b6db-4bf7-8bb0-7db80432de35))
     (pin "2" (uuid d51efc13-cb82-4036-af5e-cebde340ed0b))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "R3") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "R3") (unit 1)
@@ -3459,7 +3700,7 @@
     (property "Value" "2.2u" (at 48.26 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 45.4152 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 45.4152 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 62.23 0)
@@ -3468,6 +3709,11 @@
     (pin "1" (uuid 0478b2d7-ee21-4c12-b804-8e0074923b61))
     (pin "2" (uuid 8de4caea-0b9b-413c-9669-7625455aceeb))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C1") (unit 1)
@@ -3493,6 +3739,11 @@
     )
     (pin "1" (uuid fa6369be-7ea1-4d34-9fdf-0a9edcd3b5dd))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "#PWR08") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "#PWR08") (unit 1)
@@ -3510,7 +3761,7 @@
     (property "Value" "2.2u" (at 31.75 179.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 28.9052 181.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 28.9052 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 177.8 0)
@@ -3519,11 +3770,20 @@
     (pin "1" (uuid 1a03e8c0-ee68-483c-b5c0-cbc1f5f19dc8))
     (pin "2" (uuid 39412e99-24e0-4f4d-9acf-06bc3cb5f05c))
     (instances
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+          (reference "C11") (unit 1)
+        )
+      )
       (project "HighLevel"
         (path "/f9a6c3e8-2765-4772-a9c1-3e7390c28159/3ffa2998-2929-41ae-8716-c46a86fdfcf8"
           (reference "C11") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
