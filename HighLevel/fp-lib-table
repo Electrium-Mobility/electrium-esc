@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MC74VHC1GT66")(type "KiCad")(uri "E:/GitHub_projects/uwaterloo-electrium/electrium-esc/component_lib/MC74VHC1GT66")(options "")(descr ""))
+)

@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "project_library")(type "KiCad")(uri "${KIPRJMOD}/project_library.kicad_sym")(options "")(descr ""))
-  (lib (name "UCC27210DDA")(type "KiCad")(uri "${KIPRJMOD}/UCC27210DDA.kicad_sym")(options "")(descr ""))
+  (lib (name "MC74VHC1GT66")(type "KiCad")(uri "${KIPRJMOD}/component_lib/MC74VHC1GT66/MC74VHC1GT66.kicad_sym")(options "")(descr ""))
 )
