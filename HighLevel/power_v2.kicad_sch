@@ -1776,7 +1776,7 @@
     (stroke (width 0) (type default))
     (uuid 81f9df83-113b-4af5-91ba-708e95239cf0)
   )
-  (wire (pts (xy 39.37 35.56) (xy 45.72 35.56))
+  (wire (pts (xy 36.83 35.56) (xy 45.72 35.56))
     (stroke (width 0) (type default))
     (uuid 82694df4-cfe0-4dd9-a114-eef0da455dc5)
   )
@@ -2693,27 +2693,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GL_C" (shape input) (at 236.22 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 570076f6-e5f7-4470-9d5d-d01b4ce780f0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 243.6615 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GH_B" (shape input) (at 125.73 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5c84ddf0-81a9-4e24-93da-45d8b60bf3f1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 117.9861 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GL_A" (shape input) (at 66.04 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5f0a0f5c-4d3a-4581-9144-70c19bb5af83)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 73.3001 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "V_IN" (shape input) (at 179.07 157.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8f76df45-1674-414d-87de-e5029e09d18a)
@@ -2721,64 +2700,54 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "GL_B" (shape input) (at 152.4 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9542af18-c612-460f-b8c3-04c606313779)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 159.8415 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "SH_B" (shape input) (at 135.89 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a15554a3-40b8-4b9a-b129-4592ee58d23c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.2066 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GH_A" (shape input) (at 39.37 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ccdcf941-9a78-43b1-a62e-e5de2aac620b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 31.8075 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "SH_C" (shape input) (at 219.71 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d4d149b9-6efa-450c-b5a1-fc926a566650)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 212.0266 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "SH_A" (shape input) (at 49.53 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e7bf908d-191c-4090-81c7-4a4012067e6e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 42.028 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GH_C" (shape input) (at 209.55 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f0048380-3406-4668-be3d-ecce36286880)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 201.8061 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
 
+  (hierarchical_label "GL_B" (shape input) (at 152.4 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 15348793-0a0b-4d9d-b629-b79f07142b68)
+  )
   (hierarchical_label "TEMP3" (shape input) (at 93.98 176.53 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 17347309-2940-4c95-8341-4a13f38a74ae)
+  )
+  (hierarchical_label "GH_B" (shape input) (at 125.73 35.56 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2878fb80-b0f1-4247-a3ba-f2fec247b311)
   )
   (hierarchical_label "CURR_A" (shape input) (at 67.31 115.57 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 382c34a8-fc9d-4e72-b35f-7c2141991d98)
   )
+  (hierarchical_label "GL_C" (shape input) (at 236.22 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 3d571233-eb86-4eae-b205-2d9f7626be83)
+  )
   (hierarchical_label "CURR_FILTER" (shape input) (at 191.77 135.89 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3d7ab0d1-864d-4c4e-abc8-bd6b44711c4c)
   )
+  (hierarchical_label "SH_B" (shape input) (at 135.89 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5e0c58ba-5ada-4216-9722-bffbff9e75c5)
+  )
   (hierarchical_label "CURR_FILTER" (shape input) (at 26.67 135.89 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6981d4b3-1601-4131-833c-79032d24644c)
+  )
+  (hierarchical_label "SH_C" (shape input) (at 219.71 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 91b0646d-6c9f-4552-8cda-235fa58296e1)
+  )
+  (hierarchical_label "GH_C" (shape input) (at 209.55 35.56 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 93bc4404-55a9-4891-a621-121c5e232617)
+  )
+  (hierarchical_label "SH_A" (shape input) (at 49.53 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9e0e553a-0089-4a64-b625-4927bc6b2931)
+  )
+  (hierarchical_label "GL_A" (shape input) (at 66.04 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b0e06e31-f28e-4f8b-9881-1763a9b4b9f7)
   )
   (hierarchical_label "TEMP2" (shape input) (at 66.04 176.53 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -2795,6 +2764,10 @@
   (hierarchical_label "CURR_FILTER" (shape input) (at 109.22 135.89 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f3b04a8e-b3e2-4c7e-853e-9fdd3cff6ef1)
+  )
+  (hierarchical_label "GH_A" (shape input) (at 36.83 35.56 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f3bfd639-645e-4d7b-85b2-1f1f0d2cba41)
   )
   (hierarchical_label "CURR_C" (shape input) (at 232.41 115.57 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -2823,7 +2796,7 @@
           (reference "J6") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "J6") (unit 1)
         )
@@ -2854,7 +2827,7 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R11") (unit 1)
         )
@@ -2885,7 +2858,7 @@
           (reference "R49") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R49") (unit 1)
         )
@@ -2917,7 +2890,7 @@
           (reference "Q11") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q11") (unit 1)
         )
@@ -2948,7 +2921,7 @@
           (reference "C29") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C29") (unit 1)
         )
@@ -2979,7 +2952,7 @@
           (reference "C77") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C77") (unit 1)
         )
@@ -3010,7 +2983,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C10") (unit 1)
         )
@@ -3041,7 +3014,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C16") (unit 1)
         )
@@ -3072,7 +3045,7 @@
           (reference "R18") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R18") (unit 1)
         )
@@ -3103,7 +3076,7 @@
           (reference "0.1") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "0.1") (unit 1)
         )
@@ -3134,7 +3107,7 @@
           (reference "C73") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C73") (unit 1)
         )
@@ -3165,7 +3138,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C13") (unit 1)
         )
@@ -3196,7 +3169,7 @@
           (reference "R50") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R50") (unit 1)
         )
@@ -3226,7 +3199,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR08") (unit 1)
         )
@@ -3256,7 +3229,7 @@
           (reference "#PWR011") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR011") (unit 1)
         )
@@ -3287,7 +3260,7 @@
           (reference "r3") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "r3") (unit 1)
         )
@@ -3317,7 +3290,7 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR06") (unit 1)
         )
@@ -3348,7 +3321,7 @@
           (reference "C74") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C74") (unit 1)
         )
@@ -3379,7 +3352,7 @@
           (reference "C33") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C33") (unit 1)
         )
@@ -3410,7 +3383,7 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R10") (unit 1)
         )
@@ -3442,7 +3415,7 @@
           (reference "Q14") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q14") (unit 1)
         )
@@ -3473,7 +3446,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C4") (unit 1)
         )
@@ -3503,7 +3476,7 @@
           (reference "#PWR04") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR04") (unit 1)
         )
@@ -3534,7 +3507,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R6") (unit 1)
         )
@@ -3565,7 +3538,7 @@
           (reference "All_Capacitors2") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "All_Capacitors2") (unit 1)
         )
@@ -3596,7 +3569,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C8") (unit 1)
         )
@@ -3627,7 +3600,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C5") (unit 1)
         )
@@ -3658,7 +3631,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C3") (unit 1)
         )
@@ -3689,7 +3662,7 @@
           (reference "R51") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R51") (unit 1)
         )
@@ -3719,7 +3692,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "J2") (unit 1)
         )
@@ -3749,7 +3722,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR05") (unit 1)
         )
@@ -3804,7 +3777,7 @@
           (reference "U19") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "U19") (unit 1)
         )
@@ -3834,7 +3807,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR016") (unit 1)
         )
@@ -3865,7 +3838,7 @@
           (reference "C19") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C19") (unit 1)
         )
@@ -3896,7 +3869,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C6") (unit 1)
         )
@@ -3933,7 +3906,7 @@
           (reference "U3") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "U3") (unit 1)
         )
@@ -3964,7 +3937,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R17") (unit 1)
         )
@@ -3996,7 +3969,7 @@
           (reference "Q17") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q17") (unit 1)
         )
@@ -4027,7 +4000,7 @@
           (reference "R9") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R9") (unit 1)
         )
@@ -4059,7 +4032,7 @@
           (reference "Q4") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q4") (unit 1)
         )
@@ -4090,7 +4063,7 @@
           (reference "C23") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C23") (unit 1)
         )
@@ -4121,7 +4094,7 @@
           (reference "R22") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R22") (unit 1)
         )
@@ -4152,7 +4125,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C7") (unit 1)
         )
@@ -4183,7 +4156,7 @@
           (reference "R19") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R19") (unit 1)
         )
@@ -4213,7 +4186,7 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR010") (unit 1)
         )
@@ -4244,7 +4217,7 @@
           (reference "r12") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "r12") (unit 1)
         )
@@ -4274,7 +4247,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR01") (unit 1)
         )
@@ -4305,7 +4278,7 @@
           (reference "C75") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C75") (unit 1)
         )
@@ -4335,7 +4308,7 @@
           (reference "#PWR015") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR015") (unit 1)
         )
@@ -4366,7 +4339,7 @@
           (reference "C20") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C20") (unit 1)
         )
@@ -4397,7 +4370,7 @@
           (reference "r8") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "r8") (unit 1)
         )
@@ -4428,7 +4401,7 @@
           (reference "R52") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R52") (unit 1)
         )
@@ -4459,7 +4432,7 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C9") (unit 1)
         )
@@ -4496,7 +4469,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "U2") (unit 1)
         )
@@ -4533,7 +4506,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "U1") (unit 1)
         )
@@ -4565,7 +4538,7 @@
           (reference "Q5") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q5") (unit 1)
         )
@@ -4620,7 +4593,7 @@
           (reference "U17") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "U17") (unit 1)
         )
@@ -4651,7 +4624,7 @@
           (reference "All_Capacitors") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "All_Capacitors") (unit 1)
         )
@@ -4681,7 +4654,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "J1") (unit 1)
         )
@@ -4713,7 +4686,7 @@
           (reference "Q13") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q13") (unit 1)
         )
@@ -4744,7 +4717,7 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C14") (unit 1)
         )
@@ -4774,7 +4747,7 @@
           (reference "#PWR03") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR03") (unit 1)
         )
@@ -4804,7 +4777,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR013") (unit 1)
         )
@@ -4835,7 +4808,7 @@
           (reference "C26") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C26") (unit 1)
         )
@@ -4866,7 +4839,7 @@
           (reference "C18") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C18") (unit 1)
         )
@@ -4896,7 +4869,7 @@
           (reference "J3") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "J3") (unit 1)
         )
@@ -4927,7 +4900,7 @@
           (reference "0.0005") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "0.0005") (unit 1)
         )
@@ -4958,7 +4931,7 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C15") (unit 1)
         )
@@ -4989,7 +4962,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C1") (unit 1)
         )
@@ -5019,7 +4992,7 @@
           (reference "#PWR012") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR012") (unit 1)
         )
@@ -5050,7 +5023,7 @@
           (reference "All_Capacitors1") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "All_Capacitors1") (unit 1)
         )
@@ -5082,7 +5055,7 @@
           (reference "Q2") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q2") (unit 1)
         )
@@ -5113,7 +5086,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R7") (unit 1)
         )
@@ -5145,7 +5118,7 @@
           (reference "Q9") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q9") (unit 1)
         )
@@ -5176,7 +5149,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R1") (unit 1)
         )
@@ -5207,7 +5180,7 @@
           (reference "C76") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C76") (unit 1)
         )
@@ -5238,7 +5211,7 @@
           (reference "C11") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C11") (unit 1)
         )
@@ -5269,7 +5242,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R2") (unit 1)
         )
@@ -5301,7 +5274,7 @@
           (reference "Q3") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q3") (unit 1)
         )
@@ -5331,7 +5304,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR09") (unit 1)
         )
@@ -5363,7 +5336,7 @@
           (reference "Q1") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q1") (unit 1)
         )
@@ -5394,7 +5367,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C2") (unit 1)
         )
@@ -5426,7 +5399,7 @@
           (reference "Q12") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q12") (unit 1)
         )
@@ -5456,7 +5429,7 @@
           (reference "#PWR014") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR014") (unit 1)
         )
@@ -5488,7 +5461,7 @@
           (reference "Q6") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q6") (unit 1)
         )
@@ -5520,7 +5493,7 @@
           (reference "Q16") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q16") (unit 1)
         )
@@ -5550,7 +5523,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR017") (unit 1)
         )
@@ -5580,7 +5553,7 @@
           (reference "#PWR02") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR02") (unit 1)
         )
@@ -5611,7 +5584,7 @@
           (reference "C36") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C36") (unit 1)
         )
@@ -5643,7 +5616,7 @@
           (reference "Q18") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q18") (unit 1)
         )
@@ -5674,7 +5647,7 @@
           (reference "R4") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R4") (unit 1)
         )
@@ -5705,7 +5678,7 @@
           (reference "0.2") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "0.2") (unit 1)
         )
@@ -5735,7 +5708,7 @@
           (reference "#PWR07") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "#PWR07") (unit 1)
         )
@@ -5766,7 +5739,7 @@
           (reference "C32") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C32") (unit 1)
         )
@@ -5798,7 +5771,7 @@
           (reference "Q15") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q15") (unit 1)
         )
@@ -5829,7 +5802,7 @@
           (reference "C17") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C17") (unit 1)
         )
@@ -5861,7 +5834,7 @@
           (reference "Q10") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q10") (unit 1)
         )
@@ -5893,7 +5866,7 @@
           (reference "Q7") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q7") (unit 1)
         )
@@ -5924,7 +5897,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R5") (unit 1)
         )
@@ -5955,7 +5928,7 @@
           (reference "C35") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C35") (unit 1)
         )
@@ -5986,7 +5959,7 @@
           (reference "R21") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "R21") (unit 1)
         )
@@ -6017,7 +5990,7 @@
           (reference "C12") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C12") (unit 1)
         )
@@ -6047,7 +6020,7 @@
           (reference "J4") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "J4") (unit 1)
         )
@@ -6102,7 +6075,7 @@
           (reference "U18") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "U18") (unit 1)
         )
@@ -6134,7 +6107,7 @@
           (reference "Q8") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "Q8") (unit 1)
         )
@@ -6164,7 +6137,7 @@
           (reference "J5") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "J5") (unit 1)
         )
@@ -6195,11 +6168,15 @@
           (reference "C21") (unit 1)
         )
       )
-      (project "power"
+      (project "power_v2"
         (path "/58a17ffc-2d7e-459b-b366-64c0ed4f021a"
           (reference "C21") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
