@@ -256,6 +256,7 @@
     )
   )
 
+
   (junction (at 160.02 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 00887566-f9b0-4e09-925e-dc7cbdba4290)
   )
@@ -427,13 +428,13 @@
   (symbol (lib_id "Device:C") (at 116.84 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17eb4167-dbb6-45eb-96b6-b1912358dfb5)
-    (property "Reference" "C1" (at 120.65 124.46 0)
+    (property "Reference" "C4" (at 120.65 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 120.65 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 117.8052 129.54 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 117.8052 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 125.73 0)
@@ -444,7 +445,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/d37aac18-cba6-41cf-afef-0352e11a26d4"
-          (reference "C1") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "HighLevel"
@@ -458,13 +459,13 @@
   (symbol (lib_id "Device:R") (at 160.02 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 228734e2-9e72-46cf-9a89-cd73a8597587)
-    (property "Reference" "R1" (at 162.56 110.49 0)
+    (property "Reference" "R13" (at 162.56 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 162.56 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 158.242 111.76 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 158.242 111.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 111.76 0)
@@ -475,7 +476,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/d37aac18-cba6-41cf-afef-0352e11a26d4"
-          (reference "R1") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "HighLevel"
@@ -489,7 +490,7 @@
   (symbol (lib_id "Interface_CAN_LIN:TJA1051TK-3") (at 140.97 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bcbd5ba-fb1e-47ca-bdf4-6231bd83bf9e)
-    (property "Reference" "U1" (at 142.9259 99.06 0)
+    (property "Reference" "U2" (at 142.9259 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TJA1051TK-3" (at 142.9259 101.6 0)
@@ -513,7 +514,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/d37aac18-cba6-41cf-afef-0352e11a26d4"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "HighLevel"
@@ -527,7 +528,7 @@
   (symbol (lib_id "power:GND") (at 143.51 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48983b2c-895d-445a-b5fd-1f59a0e8117f)
-    (property "Reference" "#PWR01" (at 143.51 132.08 0)
+    (property "Reference" "#PWR030" (at 143.51 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 130.81 0)
@@ -543,7 +544,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/d37aac18-cba6-41cf-afef-0352e11a26d4"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "HighLevel"
@@ -557,13 +558,13 @@
   (symbol (lib_id "Device:C") (at 127 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aae99b95-6ed3-4a83-b843-de0e38960938)
-    (property "Reference" "C2" (at 130.81 124.46 0)
+    (property "Reference" "C5" (at 130.81 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 130.81 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 127.9652 129.54 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 127.9652 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 125.73 0)
@@ -574,7 +575,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/d37aac18-cba6-41cf-afef-0352e11a26d4"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "HighLevel"
@@ -588,7 +589,7 @@
   (symbol (lib_id "power:+5V") (at 116.84 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddad56a3-55e1-4697-920b-2cb57299ff02)
-    (property "Reference" "#PWR02" (at 116.84 95.25 0)
+    (property "Reference" "#PWR029" (at 116.84 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 116.84 86.36 0)
@@ -604,7 +605,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/d37aac18-cba6-41cf-afef-0352e11a26d4"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "HighLevel"

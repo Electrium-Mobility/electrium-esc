@@ -819,6 +819,7 @@
     )
   )
 
+
   (junction (at 203.2 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 011cb756-a67e-413f-8dbe-e4b208f2b4eb)
   )
@@ -1329,7 +1330,7 @@
   (symbol (lib_id "power:VCC") (at 179.07 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10c8a74d-661f-4793-9a63-3f19fb030cd2)
-    (property "Reference" "#PWR08" (at 179.07 34.29 0)
+    (property "Reference" "#PWR036" (at 179.07 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 179.07 26.67 0)
@@ -1345,7 +1346,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "MCU"
@@ -1359,7 +1360,7 @@
   (symbol (lib_id "power:GND") (at 113.03 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11b52fb6-8d32-4d68-ac85-4f0780684743)
-    (property "Reference" "#PWR03" (at 113.03 58.42 0)
+    (property "Reference" "#PWR032" (at 113.03 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 57.15 0)
@@ -1375,7 +1376,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "MCU"
@@ -1389,13 +1390,13 @@
   (symbol (lib_id "Device:C") (at 132.08 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14505897-33b5-45bf-a2a4-2211544c114c)
-    (property "Reference" "C4" (at 133.35 110.49 0)
+    (property "Reference" "C8" (at 133.35 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2u" (at 130.81 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 128.27 116.5352 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 128.27 116.5352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 115.57 0)
@@ -1406,7 +1407,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C4") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "MCU"
@@ -1420,7 +1421,7 @@
   (symbol (lib_id "power:GND") (at 124.46 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 171f0cab-ee05-4f63-90d0-38592bc0b68e)
-    (property "Reference" "#PWR05" (at 124.46 132.08 0)
+    (property "Reference" "#PWR033" (at 124.46 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 130.81 0)
@@ -1436,7 +1437,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "MCU"
@@ -1450,13 +1451,13 @@
   (symbol (lib_id "Device:C") (at 265.43 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2633c81c-326a-43ba-a912-10a6b43d0822)
-    (property "Reference" "C12" (at 266.7 25.4 0)
+    (property "Reference" "C15" (at 266.7 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 266.7 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 266.3952 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 266.3952 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 265.43 27.94 0)
@@ -1467,7 +1468,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "MCU"
@@ -1481,13 +1482,13 @@
   (symbol (lib_id "Device:C") (at 259.08 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33658ee3-dea7-4892-96d0-05d93f3e6c41)
-    (property "Reference" "C11" (at 260.35 25.4 0)
+    (property "Reference" "C14" (at 260.35 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 260.35 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 260.0452 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 260.0452 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 27.94 0)
@@ -1498,7 +1499,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "MCU"
@@ -1512,13 +1513,13 @@
   (symbol (lib_id "Device:C") (at 190.5 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38d476ec-880b-4880-9b5c-7acaf3018f29)
-    (property "Reference" "C6" (at 194.31 38.735 0)
+    (property "Reference" "C11" (at 194.31 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 194.31 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 191.4652 43.18 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 191.4652 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.5 39.37 0)
@@ -1529,7 +1530,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C6") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "MCU"
@@ -1543,13 +1544,13 @@
   (symbol (lib_id "Device:C") (at 252.73 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 454b673b-3618-41a5-b73f-7c7ac8962820)
-    (property "Reference" "C10" (at 254 25.4 0)
+    (property "Reference" "C13" (at 254 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 254 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 253.6952 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 253.6952 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 27.94 0)
@@ -1560,7 +1561,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C10") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "MCU"
@@ -1574,7 +1575,7 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F405RGTx") (at 171.45 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53008d65-1feb-482d-a293-90d324e71319)
-    (property "Reference" "U1" (at 175.9459 134.62 0)
+    (property "Reference" "U3" (at 175.9459 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F405RGTx" (at 175.9459 137.16 0)
@@ -1653,7 +1654,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
       (project "MCU"
@@ -1667,13 +1668,13 @@
   (symbol (lib_id "Device:C") (at 121.92 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 840e3eeb-58a4-434b-9c2a-fe82d164c279)
-    (property "Reference" "C9" (at 116.84 50.8 0)
+    (property "Reference" "C7" (at 116.84 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15p" (at 116.84 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 122.8852 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 122.8852 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 52.07 0)
@@ -1684,7 +1685,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "MCU"
@@ -1698,13 +1699,13 @@
   (symbol (lib_id "Device:C") (at 271.78 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88996af1-dd77-4889-aa23-eb6ff77dc683)
-    (property "Reference" "C13" (at 273.05 25.4 0)
+    (property "Reference" "C16" (at 273.05 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 273.05 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 272.7452 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 272.7452 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 271.78 27.94 0)
@@ -1715,7 +1716,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C13") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "MCU"
@@ -1729,13 +1730,13 @@
   (symbol (lib_id "Device:C") (at 146.05 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9afbe5a1-d4ad-4bd7-8904-e5228eac28c7)
-    (property "Reference" "C3" (at 148.59 50.8 0)
+    (property "Reference" "C10" (at 148.59 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15p" (at 148.59 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 147.0152 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 147.0152 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 146.05 52.07 0)
@@ -1746,7 +1747,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C3") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "MCU"
@@ -1760,7 +1761,7 @@
   (symbol (lib_id "power:GND") (at 130.81 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bbbb7c4-23f7-4379-b012-31c8bb6bf30d)
-    (property "Reference" "#PWR06" (at 130.81 69.85 0)
+    (property "Reference" "#PWR034" (at 130.81 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 68.58 0)
@@ -1776,7 +1777,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "MCU"
@@ -1790,7 +1791,7 @@
   (symbol (lib_id "power:GND") (at 210.82 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a44351e3-da78-49c6-a735-ab8271d24c6c)
-    (property "Reference" "#PWR04" (at 210.82 49.53 0)
+    (property "Reference" "#PWR037" (at 210.82 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 48.26 0)
@@ -1806,7 +1807,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "MCU"
@@ -1820,7 +1821,7 @@
   (symbol (lib_id "power:GND") (at 171.45 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6a188dc-2ad3-4ea7-a4ea-ff1121a5041a)
-    (property "Reference" "#PWR01" (at 171.45 144.78 0)
+    (property "Reference" "#PWR035" (at 171.45 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 143.51 0)
@@ -1836,7 +1837,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "MCU"
@@ -1850,7 +1851,7 @@
   (symbol (lib_id "power:GND") (at 100.33 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6dc91ec-8386-46a4-b7d1-2a390953efe2)
-    (property "Reference" "#PWR02" (at 100.33 64.77 0)
+    (property "Reference" "#PWR031" (at 100.33 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 63.5 0)
@@ -1866,7 +1867,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "MCU"
@@ -1880,13 +1881,13 @@
   (symbol (lib_id "Device:C") (at 100.33 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad1615d4-f877-47c3-952b-b8c96d87bf06)
-    (property "Reference" "C8" (at 104.14 51.435 0)
+    (property "Reference" "C6" (at 104.14 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 104.14 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 101.2952 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 101.2952 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 52.07 0)
@@ -1897,7 +1898,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C8") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "MCU"
@@ -1911,13 +1912,13 @@
   (symbol (lib_id "Device:C") (at 203.2 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5df157c-7c66-4993-9aa9-406b72b0171e)
-    (property "Reference" "C7" (at 207.01 38.735 0)
+    (property "Reference" "C12" (at 207.01 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 207.01 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 204.1652 43.18 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 204.1652 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 39.37 0)
@@ -1928,7 +1929,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C7") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "MCU"
@@ -1942,7 +1943,7 @@
   (symbol (lib_id "power:GND") (at 246.38 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d23bb63d-fcb4-4e1e-8f3f-a04d19bd74b4)
-    (property "Reference" "#PWR07" (at 246.38 43.18 0)
+    (property "Reference" "#PWR038" (at 246.38 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 41.91 0)
@@ -1958,7 +1959,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "MCU"
@@ -1972,13 +1973,13 @@
   (symbol (lib_id "Device:C") (at 132.08 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db459094-41b9-4218-bde7-6dfcb9f45f52)
-    (property "Reference" "C5" (at 133.35 120.65 0)
+    (property "Reference" "C9" (at 133.35 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2u" (at 130.81 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 135.89 124.7648 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 135.89 124.7648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 125.73 0)
@@ -1989,7 +1990,7 @@
     (instances
       (project "HighLevel"
         (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
-          (reference "C5") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "MCU"
@@ -2009,7 +2010,7 @@
     (property "Value" "~" (at 119.38 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 130.81 55.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 130.81 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 55.88 0)

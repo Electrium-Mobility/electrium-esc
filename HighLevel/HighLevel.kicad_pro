@@ -274,7 +274,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(C13-Pad1)": "VCC",
+      "Net-(U3-VBAT)": "VCC"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -332,6 +335,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "26149e3f-2822-4531-a73b-0a61b71078cc",
+      ""
+    ],
+    [
+      "d37aac18-cba6-41cf-afef-0352e11a26d4",
+      "CAN"
+    ],
+    [
+      "805b2797-9011-4004-9ce6-542e3355d0ef",
+      "mcu"
+    ],
+    [
+      "ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3",
+      "driver"
+    ],
+    [
+      "5eaa5481-838b-4009-ace4-c87ac2329f30",
+      "power"
+    ]
+  ],
   "text_variables": {}
 }

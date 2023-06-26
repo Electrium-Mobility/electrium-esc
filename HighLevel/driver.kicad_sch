@@ -594,6 +594,7 @@
     )
   )
 
+
   (junction (at 158.75 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 02630a67-07e6-4582-8b20-fbc16a0cb5a2)
   )
@@ -1624,7 +1625,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a471b997-69a6-42eb-ab43-8ac2e9216e44)
   )
-  (hierarchical_label "SENS_2" (shape input) (at 149.86 88.9 180) (fields_autoplaced)
+  (hierarchical_label "SENS_3" (shape input) (at 149.86 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bae72b49-d579-4ced-823e-13475ab773bf)
   )
@@ -1660,7 +1661,7 @@
   (symbol (lib_id "Device:C") (at 88.9 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 013d5e8c-2b66-4fe5-a7ea-208404668298)
-    (property "Reference" "C13" (at 92.71 175.895 0)
+    (property "Reference" "C24" (at 92.71 175.895 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2u" (at 92.71 178.435 0)
@@ -1675,13 +1676,13 @@
     (pin "1" (uuid 9f7c9844-1419-49da-be41-5abbd5d2d1df))
     (pin "2" (uuid 1ad18ed0-0cc1-4163-a191-da5c5c8a128f))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C13") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C24") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C13") (unit 1)
         )
       )
@@ -1696,7 +1697,7 @@
   (symbol (lib_id "project_library:UCC27210DDA") (at 148.59 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ca85592-ba4e-4a74-b3c4-3f8811b4661b)
-    (property "Reference" "J2" (at 161.29 48.26 0)
+    (property "Reference" "J9" (at 161.29 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UCC27210DDA" (at 161.29 50.8 0)
@@ -1739,13 +1740,13 @@
     (pin "8" (uuid e6f2e627-8c9a-484c-914d-73214f2272e3))
     (pin "9" (uuid 2a7bcf97-3a5a-4971-bbb1-6978f6a6ef91))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "J2") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "J9") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "J2") (unit 1)
         )
       )
@@ -1775,13 +1776,13 @@
     (pin "1" (uuid 374efa9d-b47b-4f11-8052-dea4c2c784a4))
     (pin "2" (uuid 3e344f0e-a8b7-416c-897a-d00832b8eff1))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
           (reference "L1") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "L1") (unit 1)
         )
       )
@@ -1796,7 +1797,7 @@
   (symbol (lib_id "project_library:UCC27210DDA") (at 223.52 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 112990fd-727f-4667-bd5f-9d80f73f1649)
-    (property "Reference" "J3" (at 236.22 48.26 0)
+    (property "Reference" "J10" (at 236.22 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UCC27210DDA" (at 236.22 50.8 0)
@@ -1839,13 +1840,13 @@
     (pin "8" (uuid e8b784be-9768-4835-a43a-9db27da1521b))
     (pin "9" (uuid 611608aa-216b-4227-bbbb-021d10ac36f0))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "J3") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "J10") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "J3") (unit 1)
         )
       )
@@ -1860,7 +1861,7 @@
   (symbol (lib_id "power:+12V") (at 193.04 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1dcb7abb-c51c-41cf-aeb6-4dca6391d789)
-    (property "Reference" "#PWR05" (at 193.04 49.53 0)
+    (property "Reference" "#PWR061" (at 193.04 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 193.04 41.91 0)
@@ -1874,13 +1875,13 @@
     )
     (pin "1" (uuid beeaaadf-5353-421a-bf73-67faf6af11f4))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR05") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR061") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR05") (unit 1)
         )
       )
@@ -1895,7 +1896,7 @@
   (symbol (lib_id "power:+12V") (at 118.11 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 239e04e5-d4c3-4458-90a2-4725d54b78ca)
-    (property "Reference" "#PWR03" (at 118.11 49.53 0)
+    (property "Reference" "#PWR052" (at 118.11 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 118.11 41.91 0)
@@ -1909,13 +1910,13 @@
     )
     (pin "1" (uuid 4bcf421d-efe2-4aef-b07d-1a3c26d7a849))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR03") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR052") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR03") (unit 1)
         )
       )
@@ -1930,7 +1931,7 @@
   (symbol (lib_id "power:+12V") (at 27.94 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 246031a3-44fa-4ce3-9979-844280d53ab7)
-    (property "Reference" "#PWR021" (at 27.94 160.02 0)
+    (property "Reference" "#PWR039" (at 27.94 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 27.94 152.4 0)
@@ -1944,13 +1945,13 @@
     )
     (pin "1" (uuid 5ba97e70-e026-4a5e-8097-564d72b6789e))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR021") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR039") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR021") (unit 1)
         )
       )
@@ -1965,7 +1966,7 @@
   (symbol (lib_id "Device:C") (at 55.88 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a1bc374-5331-462d-9db5-6016af01b060)
-    (property "Reference" "C2" (at 59.69 61.595 0)
+    (property "Reference" "C21" (at 59.69 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 59.69 64.135 0)
@@ -1980,13 +1981,13 @@
     (pin "1" (uuid b493ab18-25ee-4986-aebc-86cefc1c70f7))
     (pin "2" (uuid 1e5a6aa0-225f-4d70-9f25-8ad314f4755d))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C2") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C21") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C2") (unit 1)
         )
       )
@@ -2001,7 +2002,7 @@
   (symbol (lib_id "power:GND") (at 128.27 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cd31884-d55b-4d24-b6c3-7d129deb7574)
-    (property "Reference" "#PWR014" (at 128.27 130.81 0)
+    (property "Reference" "#PWR054" (at 128.27 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 129.54 0)
@@ -2015,13 +2016,13 @@
     )
     (pin "1" (uuid 94a8aa9a-199e-4ea8-8462-8c8b23967fa8))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR014") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR054") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR014") (unit 1)
         )
       )
@@ -2036,7 +2037,7 @@
   (symbol (lib_id "power:GND") (at 118.11 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31122eb6-9d64-4617-bc0c-a67f271057c3)
-    (property "Reference" "#PWR04" (at 118.11 87.63 0)
+    (property "Reference" "#PWR053" (at 118.11 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 86.36 0)
@@ -2050,13 +2051,13 @@
     )
     (pin "1" (uuid d3a95242-6fcb-4e06-bb2d-851e62ac2eba))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR04") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR053") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR04") (unit 1)
         )
       )
@@ -2071,7 +2072,7 @@
   (symbol (lib_id "Device:R") (at 52.07 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33f9d015-2c1c-4e7a-a928-6fd56fbc0eb2)
-    (property "Reference" "R1" (at 52.07 87.63 90)
+    (property "Reference" "R14" (at 52.07 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "56k" (at 52.07 90.17 90)
@@ -2086,13 +2087,13 @@
     (pin "1" (uuid 8d28cbcc-0568-4dd2-845e-06017a447f00))
     (pin "2" (uuid 083a2395-6ced-43c6-989e-30c28c9ad51d))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R1") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R14") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R1") (unit 1)
         )
       )
@@ -2107,7 +2108,7 @@
   (symbol (lib_id "power:+12V") (at 44.45 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34ba1b5b-b930-41b4-b485-0d42c4dd7cd2)
-    (property "Reference" "#PWR01" (at 44.45 49.53 0)
+    (property "Reference" "#PWR042" (at 44.45 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 44.45 41.91 0)
@@ -2121,13 +2122,13 @@
     )
     (pin "1" (uuid f331c9e5-bcf8-4ed2-8d89-4d2bf8ada51b))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR01") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR042") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -2142,7 +2143,7 @@
   (symbol (lib_id "Device:R") (at 64.77 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39c0615c-4ee5-4e44-9378-0e83aca09612)
-    (property "Reference" "R10" (at 67.31 175.895 0)
+    (property "Reference" "R17" (at 67.31 175.895 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 67.31 178.435 0)
@@ -2157,13 +2158,13 @@
     (pin "1" (uuid d6b3ebfb-9e8c-47a7-bb6b-422395a0d570))
     (pin "2" (uuid 31b2bf79-52ee-49cd-bdaa-c3d0f5a824d1))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R10") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R17") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R10") (unit 1)
         )
       )
@@ -2178,7 +2179,7 @@
   (symbol (lib_id "Device:C") (at 165.1 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39d31633-ae54-4154-8cd9-b32d150f09ea)
-    (property "Reference" "C9" (at 165.1 99.06 90)
+    (property "Reference" "C32" (at 165.1 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 165.1 101.6 90)
@@ -2193,13 +2194,13 @@
     (pin "1" (uuid eb1f6307-1bca-46bc-b0f8-c4664f2d7b18))
     (pin "2" (uuid 49672772-39db-44da-90c2-91d7866e4ac6))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C9") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C32") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C9") (unit 1)
         )
       )
@@ -2214,7 +2215,7 @@
   (symbol (lib_id "Device:C") (at 105.41 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a190500-d536-4b51-b5fc-74c8ad9686c6)
-    (property "Reference" "C15" (at 109.22 177.165 0)
+    (property "Reference" "C26" (at 109.22 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 109.22 179.705 0)
@@ -2229,13 +2230,13 @@
     (pin "1" (uuid c1793ff1-7ab5-4da2-af54-973821f6d408))
     (pin "2" (uuid 82da02ca-03d9-4c06-9de1-e9a93c766464))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C15") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C26") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C15") (unit 1)
         )
       )
@@ -2250,7 +2251,7 @@
   (symbol (lib_id "Device:C") (at 151.13 162.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a5a0fe3-e2fa-44f1-8866-a0a03c2b080e)
-    (property "Reference" "C17" (at 147.32 161.29 90)
+    (property "Reference" "C30" (at 147.32 161.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 147.32 163.83 90)
@@ -2265,13 +2266,13 @@
     (pin "1" (uuid f8498c81-6c5d-4036-9c02-08576f1099a5))
     (pin "2" (uuid 20ae4189-eacf-41ea-a0bf-9f62bd22b851))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C17") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C30") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C17") (unit 1)
         )
       )
@@ -2286,7 +2287,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 77.47 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 450125b3-e0f8-4a08-97c2-b6a0c204600c)
-    (property "Reference" "C14" (at 81.28 175.26 0)
+    (property "Reference" "C23" (at 81.28 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 81.28 177.8 0)
@@ -2301,13 +2302,13 @@
     (pin "1" (uuid 610df197-8fb5-46d3-8373-9e4bbfd917f5))
     (pin "2" (uuid 826bd685-36e0-4148-b395-9c90dedc5a51))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C14") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C23") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C14") (unit 1)
         )
       )
@@ -2322,7 +2323,7 @@
   (symbol (lib_id "power:+5V") (at 140.97 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47daac12-6fec-4325-a846-a6cf5be0953f)
-    (property "Reference" "#PWR024" (at 140.97 151.13 0)
+    (property "Reference" "#PWR055" (at 140.97 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.97 143.51 0)
@@ -2336,13 +2337,13 @@
     )
     (pin "1" (uuid e7cb7437-4bc1-42b8-9988-de8dcd4a6d64))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR024") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR055") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR024") (unit 1)
         )
       )
@@ -2357,7 +2358,7 @@
   (symbol (lib_id "project_library:UCC27210DDA") (at 74.93 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50625864-bb15-4137-a6ef-3d9374b6e389)
-    (property "Reference" "J1" (at 87.63 48.26 0)
+    (property "Reference" "J8" (at 87.63 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UCC27210DDA" (at 87.63 50.8 0)
@@ -2400,13 +2401,13 @@
     (pin "8" (uuid 61a8a97b-2670-4295-a30a-e836a8b53112))
     (pin "9" (uuid 57c3662e-510d-481a-9f1a-0751d3e3c43b))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "J1") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "J8") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "J1") (unit 1)
         )
       )
@@ -2421,7 +2422,7 @@
   (symbol (lib_id "Regulator_Switching:MCP16311MS") (at 128.27 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 531376da-f604-478a-93aa-95ee792e7b59)
-    (property "Reference" "U2" (at 128.27 156.21 0)
+    (property "Reference" "U7" (at 128.27 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP16311MS" (at 128.27 158.75 0)
@@ -2442,13 +2443,13 @@
     (pin "7" (uuid 95c36a7a-0597-40b0-9e98-6c596ce275aa))
     (pin "8" (uuid 981360dd-995e-4bc0-ad02-15f960c62747))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "U2") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "U7") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "U2") (unit 1)
         )
       )
@@ -2463,7 +2464,7 @@
   (symbol (lib_id "Device:C") (at 73.66 162.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53f3d39e-170e-4e92-aab5-86b55f5f96a9)
-    (property "Reference" "C12" (at 69.85 161.29 90)
+    (property "Reference" "C22" (at 69.85 161.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 69.85 163.83 90)
@@ -2478,13 +2479,13 @@
     (pin "1" (uuid dbc2514b-dc6b-4ea8-bb5b-16bac7d74e2c))
     (pin "2" (uuid 4cb1f28a-9c85-4d02-b7c1-39cfb3d77c11))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C12") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C22") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C12") (unit 1)
         )
       )
@@ -2499,7 +2500,7 @@
   (symbol (lib_id "Device:C") (at 38.1 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54d14959-76a6-4188-aeb5-a8bab1d2efc9)
-    (property "Reference" "C10" (at 41.91 177.165 0)
+    (property "Reference" "C18" (at 41.91 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 41.91 179.705 0)
@@ -2514,13 +2515,13 @@
     (pin "1" (uuid a9946fab-1b07-468f-bc45-34a6446b9cba))
     (pin "2" (uuid f9e5f2bf-efa2-49a9-8a71-b7211e2fdbbf))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C10") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C18") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C10") (unit 1)
         )
       )
@@ -2535,7 +2536,7 @@
   (symbol (lib_id "power:GND") (at 149.86 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5550f374-3299-4944-99aa-92f8921a434c)
-    (property "Reference" "#PWR016" (at 149.86 133.35 0)
+    (property "Reference" "#PWR058" (at 149.86 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 132.08 0)
@@ -2549,13 +2550,13 @@
     )
     (pin "1" (uuid dd627f14-5fa1-41d4-b2f5-ee4d4d3c5d21))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR016") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR058") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR016") (unit 1)
         )
       )
@@ -2570,7 +2571,7 @@
   (symbol (lib_id "Device:C") (at 204.47 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 588c8349-034b-4af3-b7eb-bda3365f289f)
-    (property "Reference" "C6" (at 208.28 61.595 0)
+    (property "Reference" "C35" (at 208.28 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 208.28 64.135 0)
@@ -2585,13 +2586,13 @@
     (pin "1" (uuid 63e60d63-41db-4171-9270-3338b42cf24f))
     (pin "2" (uuid bda89b49-34be-4e48-a64a-bcafbfe2e8f8))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C6") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C35") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C6") (unit 1)
         )
       )
@@ -2606,7 +2607,7 @@
   (symbol (lib_id "Device:C") (at 166.37 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a9dedd3-f548-4de4-9762-6108029ec3e0)
-    (property "Reference" "C19" (at 170.18 175.895 0)
+    (property "Reference" "C33" (at 170.18 175.895 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2u" (at 170.18 178.435 0)
@@ -2621,13 +2622,13 @@
     (pin "1" (uuid 57f4533a-8d90-4500-9c26-6e2e8d332f64))
     (pin "2" (uuid e052bdac-9579-4fa2-a743-72873bd2fb7a))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C19") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C33") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C19") (unit 1)
         )
       )
@@ -2642,7 +2643,7 @@
   (symbol (lib_id "power:GND") (at 116.84 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d4d60d2-8e8e-43ad-8999-8aabfa2b56e6)
-    (property "Reference" "#PWR013" (at 116.84 107.95 0)
+    (property "Reference" "#PWR051" (at 116.84 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 106.68 0)
@@ -2656,13 +2657,13 @@
     )
     (pin "1" (uuid 7133bcbe-c963-4ad7-b57d-cda8fc5d2e80))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR013") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR051") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR013") (unit 1)
         )
       )
@@ -2677,7 +2678,7 @@
   (symbol (lib_id "power:+5V") (at 63.5 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67fca961-7dda-4353-ab41-f143a3d769b0)
-    (property "Reference" "#PWR022" (at 63.5 151.13 0)
+    (property "Reference" "#PWR045" (at 63.5 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 63.5 143.51 0)
@@ -2691,13 +2692,13 @@
     )
     (pin "1" (uuid 5dcda287-90f3-4402-a2c6-c108d296a1e3))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR022") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR045") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR022") (unit 1)
         )
       )
@@ -2712,7 +2713,7 @@
   (symbol (lib_id "Device:C") (at 129.54 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68c63dc0-4dca-4aa4-9a75-c99d137bc412)
-    (property "Reference" "C4" (at 133.35 61.595 0)
+    (property "Reference" "C29" (at 133.35 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 133.35 64.135 0)
@@ -2727,13 +2728,13 @@
     (pin "1" (uuid 726facc3-a13e-43fe-8cc3-f50e8380b721))
     (pin "2" (uuid e401557e-5b27-4ad7-9f7d-f0f0bd791832))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C4") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C29") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C4") (unit 1)
         )
       )
@@ -2748,7 +2749,7 @@
   (symbol (lib_id "power:VCC") (at 36.83 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72fcafcf-9282-4024-b705-e1a166b93607)
-    (property "Reference" "#PWR07" (at 36.83 120.65 0)
+    (property "Reference" "#PWR040" (at 36.83 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 36.83 113.03 0)
@@ -2762,13 +2763,13 @@
     )
     (pin "1" (uuid cdfe62c2-0a5f-4a4f-ac66-76d052e40acd))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR07") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR040") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR07") (unit 1)
         )
       )
@@ -2783,7 +2784,7 @@
   (symbol (lib_id "project_library:MC74VHC1GT66") (at 101.6 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77c155a3-a046-4870-863d-2c8516e6936a)
-    (property "Reference" "U4" (at 101.6 114.3 0)
+    (property "Reference" "U6" (at 101.6 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MC74VHC1GT66" (at 101.6 116.84 0)
@@ -2801,13 +2802,13 @@
     (pin "3" (uuid f1c14f86-cfac-4ae5-9dc5-e7ae022de3fd))
     (pin "5" (uuid 643c014d-0cfb-4143-a0c7-b923e376180c))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "U4") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "U6") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "U4") (unit 1)
         )
       )
@@ -2822,7 +2823,7 @@
   (symbol (lib_id "power:GND") (at 64.77 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 794dfd95-e823-4555-a4de-b06c8ac24450)
-    (property "Reference" "#PWR020" (at 64.77 193.04 0)
+    (property "Reference" "#PWR046" (at 64.77 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 191.77 0)
@@ -2836,13 +2837,13 @@
     )
     (pin "1" (uuid b2fb78c7-cb40-4631-95bb-2c3e75ad5954))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR020") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR046") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR020") (unit 1)
         )
       )
@@ -2857,7 +2858,7 @@
   (symbol (lib_id "power:GND") (at 271.78 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a57e3fc-27b4-4b98-b46d-53336080f89a)
-    (property "Reference" "#PWR019" (at 271.78 115.57 0)
+    (property "Reference" "#PWR063" (at 271.78 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 271.78 114.3 0)
@@ -2871,13 +2872,13 @@
     )
     (pin "1" (uuid 09059de7-060d-42bd-8bac-f526775878a1))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR019") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR063") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR019") (unit 1)
         )
       )
@@ -2892,7 +2893,7 @@
   (symbol (lib_id "Device:R") (at 260.35 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e9d801c-d867-414f-b682-751a65d0c85d)
-    (property "Reference" "R8" (at 260.35 101.6 90)
+    (property "Reference" "R25" (at 260.35 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2k" (at 260.35 104.14 90)
@@ -2907,13 +2908,13 @@
     (pin "1" (uuid cc5bc202-dd2a-4f0c-9c4f-b0ee02e9b982))
     (pin "2" (uuid 97abef1d-bea1-4add-a7e8-7df6a072018e))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R8") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R25") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R8") (unit 1)
         )
       )
@@ -2928,7 +2929,7 @@
   (symbol (lib_id "power:GND") (at 193.04 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 833cf7ba-ca86-418d-88e7-33e7c8580375)
-    (property "Reference" "#PWR06" (at 193.04 87.63 0)
+    (property "Reference" "#PWR062" (at 193.04 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 86.36 0)
@@ -2942,13 +2943,13 @@
     )
     (pin "1" (uuid 9cb8ac21-636d-4e74-b38a-c48b2ba8eea2))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR06") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR062") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR06") (unit 1)
         )
       )
@@ -2963,7 +2964,7 @@
   (symbol (lib_id "Device:R") (at 52.07 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83c5170a-146e-430b-a8b9-045d9f34a74b)
-    (property "Reference" "R2" (at 52.07 95.25 90)
+    (property "Reference" "R15" (at 52.07 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2k" (at 52.07 97.79 90)
@@ -2978,13 +2979,13 @@
     (pin "1" (uuid a72a2677-0530-46f0-8291-314791d63e77))
     (pin "2" (uuid a0d554df-bc59-43f4-8fa7-a00f236632b1))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R2") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R15") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R2") (unit 1)
         )
       )
@@ -2999,7 +3000,7 @@
   (symbol (lib_id "Device:R") (at 142.24 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 878bc01e-50a7-4b0e-a4a9-8f243e3b452f)
-    (property "Reference" "R12" (at 144.78 175.895 0)
+    (property "Reference" "R21" (at 144.78 175.895 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 144.78 178.435 0)
@@ -3014,13 +3015,13 @@
     (pin "1" (uuid d8cc0216-85f3-4e14-88af-6cf4cbd544ad))
     (pin "2" (uuid 84e4690a-ea76-4b87-b60f-dd002ad1c740))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R12") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R21") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R12") (unit 1)
         )
       )
@@ -3035,7 +3036,7 @@
   (symbol (lib_id "Device:R") (at 165.1 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88d9729b-7cbe-41fe-a596-b0aade197b0b)
-    (property "Reference" "R6" (at 165.1 91.44 90)
+    (property "Reference" "R23" (at 165.1 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2k" (at 165.1 93.98 90)
@@ -3050,13 +3051,13 @@
     (pin "1" (uuid bcc0f1a0-3a46-47c8-98fb-e1b58b94f605))
     (pin "2" (uuid b7af06cf-6162-4b88-a278-32a5303c6a1a))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R6") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R23") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R6") (unit 1)
         )
       )
@@ -3071,7 +3072,7 @@
   (symbol (lib_id "power:GND") (at 44.45 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b742cc8-09c3-4da8-ae26-1b83c581abb9)
-    (property "Reference" "#PWR02" (at 44.45 87.63 0)
+    (property "Reference" "#PWR043" (at 44.45 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 86.36 0)
@@ -3085,13 +3086,13 @@
     )
     (pin "1" (uuid 8d93ebb5-9327-4422-9f0c-d67418d5c14f))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR02") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR043") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR02") (unit 1)
         )
       )
@@ -3106,7 +3107,7 @@
   (symbol (lib_id "power:GND") (at 176.53 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e8c2a53-ac38-49bd-b658-7222c4f91b5c)
-    (property "Reference" "#PWR017" (at 176.53 105.41 0)
+    (property "Reference" "#PWR059" (at 176.53 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 104.14 0)
@@ -3120,13 +3121,13 @@
     )
     (pin "1" (uuid a752ac3e-1232-4cf3-a736-f124395dfde3))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR017") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR059") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR017") (unit 1)
         )
       )
@@ -3141,7 +3142,7 @@
   (symbol (lib_id "power:VCC") (at 90.17 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93b33b0d-1507-4690-9878-1937299a66d1)
-    (property "Reference" "#PWR011" (at 90.17 119.38 0)
+    (property "Reference" "#PWR048" (at 90.17 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 90.17 111.76 0)
@@ -3155,13 +3156,13 @@
     )
     (pin "1" (uuid 3dc4a2e4-cd7a-4c04-bdaf-895e8e6bf658))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR011") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR048") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR011") (unit 1)
         )
       )
@@ -3176,7 +3177,7 @@
   (symbol (lib_id "Device:C") (at 115.57 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95d53708-a585-4348-a505-75851236fe12)
-    (property "Reference" "C16" (at 119.38 177.165 0)
+    (property "Reference" "C27" (at 119.38 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 119.38 179.705 0)
@@ -3191,13 +3192,13 @@
     (pin "1" (uuid e9d97493-0933-42ea-b2a4-41f6c5386b71))
     (pin "2" (uuid c475d2d2-deef-4422-b14c-907821233694))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C16") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C27") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C16") (unit 1)
         )
       )
@@ -3212,7 +3213,7 @@
   (symbol (lib_id "Device:R") (at 63.5 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9784206d-2e5b-4da4-91b4-7fb7fa081840)
-    (property "Reference" "R9" (at 66.04 151.765 0)
+    (property "Reference" "R16" (at 66.04 151.765 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "52.3k" (at 66.04 154.305 0)
@@ -3227,13 +3228,13 @@
     (pin "1" (uuid ab80e1bc-4a2d-4437-a35c-e039b1f5467e))
     (pin "2" (uuid b062a6a4-6bbf-47e4-93de-1309f08b9c50))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R9") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R16") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R9") (unit 1)
         )
       )
@@ -3248,7 +3249,7 @@
   (symbol (lib_id "power:GND") (at 36.83 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 993b99fc-2db6-4c60-a713-a3bcf84dc5dc)
-    (property "Reference" "#PWR010" (at 36.83 137.16 0)
+    (property "Reference" "#PWR041" (at 36.83 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 135.89 0)
@@ -3262,13 +3263,13 @@
     )
     (pin "1" (uuid de42b169-7199-4b32-b18d-0f75187b81fe))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR010") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR041") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR010") (unit 1)
         )
       )
@@ -3283,7 +3284,7 @@
   (symbol (lib_id "project_library:MC74VHC1GT66") (at 48.26 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a290e44-32d0-4ae0-ae93-d43e2a84efd0)
-    (property "Reference" "U3" (at 48.26 115.57 0)
+    (property "Reference" "U4" (at 48.26 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MC74VHC1GT66" (at 48.26 118.11 0)
@@ -3301,13 +3302,13 @@
     (pin "3" (uuid 0a1be8c4-b3ce-48cd-98fd-8b3129d44ecc))
     (pin "5" (uuid ba1a6ca0-68ea-4522-8310-e4013115774d))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "U3") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "U4") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "U3") (unit 1)
         )
       )
@@ -3322,7 +3323,7 @@
   (symbol (lib_id "power:+12V") (at 105.41 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bffe151-617b-4d5f-85ac-a62f04ffca12)
-    (property "Reference" "#PWR023" (at 105.41 160.02 0)
+    (property "Reference" "#PWR050" (at 105.41 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 105.41 152.4 0)
@@ -3336,13 +3337,13 @@
     )
     (pin "1" (uuid 9144fe74-43a0-4200-8bce-8efb16403140))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR023") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR050") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR023") (unit 1)
         )
       )
@@ -3357,7 +3358,7 @@
   (symbol (lib_id "Device:R") (at 105.41 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d6511f3-8a51-48c1-a5c5-137e889841b3)
-    (property "Reference" "R4" (at 105.41 93.98 90)
+    (property "Reference" "R19" (at 105.41 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2k" (at 105.41 96.52 90)
@@ -3372,13 +3373,13 @@
     (pin "1" (uuid 2bfd7dbe-7af3-4266-96ba-4e8b5c4ab344))
     (pin "2" (uuid 6e187ad4-00a4-4e62-8e1c-4feba557e3b7))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R4") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R19") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R4") (unit 1)
         )
       )
@@ -3393,7 +3394,7 @@
   (symbol (lib_id "Device:R") (at 140.97 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9eaa6db1-995c-4463-8137-e9b9117a6fc1)
-    (property "Reference" "R11" (at 143.51 151.765 0)
+    (property "Reference" "R20" (at 143.51 151.765 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "52.3k" (at 143.51 154.305 0)
@@ -3408,13 +3409,13 @@
     (pin "1" (uuid 2e882d6c-af92-465f-a8de-783c24e96fc7))
     (pin "2" (uuid 42c0404f-2660-4fd5-9b60-4adc8183a61b))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R11") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R20") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R11") (unit 1)
         )
       )
@@ -3429,7 +3430,7 @@
   (symbol (lib_id "Device:R") (at 165.1 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ed759ac-4fe5-40e5-9479-a3bad301907d)
-    (property "Reference" "R5" (at 165.1 83.82 90)
+    (property "Reference" "R22" (at 165.1 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "56k" (at 165.1 86.36 90)
@@ -3444,13 +3445,13 @@
     (pin "1" (uuid a6f6788e-2a49-4e94-8716-46d200e9e601))
     (pin "2" (uuid b508b943-a90c-4edc-a1c6-873c655124c2))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R5") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R22") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R5") (unit 1)
         )
       )
@@ -3465,7 +3466,7 @@
   (symbol (lib_id "power:VCC") (at 149.86 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abcdcb40-f22c-431b-abd4-5d5066ff7a99)
-    (property "Reference" "#PWR015" (at 149.86 116.84 0)
+    (property "Reference" "#PWR057" (at 149.86 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 149.86 109.22 0)
@@ -3479,13 +3480,13 @@
     )
     (pin "1" (uuid 07cdeae4-48ac-4576-9360-9fd5abbdb0df))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR015") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR057") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR015") (unit 1)
         )
       )
@@ -3500,7 +3501,7 @@
   (symbol (lib_id "Device:C") (at 52.07 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acb3b523-79b9-480f-8f55-57100663b0e4)
-    (property "Reference" "C7" (at 52.07 102.87 90)
+    (property "Reference" "C20" (at 52.07 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 52.07 105.41 90)
@@ -3515,13 +3516,13 @@
     (pin "1" (uuid 3accc487-4e8d-48ac-a65b-2c87321fef3f))
     (pin "2" (uuid 16fffd59-4824-4faa-b6e2-82fb9ce18c4a))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C7") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C20") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C7") (unit 1)
         )
       )
@@ -3536,7 +3537,7 @@
   (symbol (lib_id "power:GND") (at 142.24 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba3df180-e381-4163-9598-e9499ff80122)
-    (property "Reference" "#PWR025" (at 142.24 193.04 0)
+    (property "Reference" "#PWR056" (at 142.24 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 191.77 0)
@@ -3550,13 +3551,13 @@
     )
     (pin "1" (uuid dcaa72cd-ac10-47c0-9394-b03944054a59))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR025") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR056") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR025") (unit 1)
         )
       )
@@ -3571,7 +3572,7 @@
   (symbol (lib_id "Device:C") (at 193.04 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb7fac22-8d29-48c8-9cec-b05352a54fbd)
-    (property "Reference" "C5" (at 196.85 61.595 0)
+    (property "Reference" "C34" (at 196.85 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 196.85 64.135 0)
@@ -3586,13 +3587,13 @@
     (pin "1" (uuid 1064107a-b2b8-4da4-a4d2-639d603c3d79))
     (pin "2" (uuid 394892e1-092e-4e52-9774-b78c50346a5b))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C5") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C34") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C5") (unit 1)
         )
       )
@@ -3607,7 +3608,7 @@
   (symbol (lib_id "power:GND") (at 187.96 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf181ce1-564e-4d9e-81c4-c7bc8a22a56f)
-    (property "Reference" "#PWR018" (at 187.96 128.27 0)
+    (property "Reference" "#PWR060" (at 187.96 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 127 0)
@@ -3621,13 +3622,13 @@
     )
     (pin "1" (uuid c55638b5-331e-4b17-8cc4-69fe8a455ebe))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR018") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR060") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR018") (unit 1)
         )
       )
@@ -3657,13 +3658,13 @@
     (pin "1" (uuid 1b002076-882b-46e1-9e6a-219775f17e3d))
     (pin "2" (uuid 14649088-9453-48b3-a793-18ce6bc3ca9b))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
           (reference "L2") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "L2") (unit 1)
         )
       )
@@ -3678,7 +3679,7 @@
   (symbol (lib_id "Device:R") (at 260.35 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c93ec289-646b-4651-ab71-65b11344fde3)
-    (property "Reference" "R7" (at 260.35 93.98 90)
+    (property "Reference" "R24" (at 260.35 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "56k" (at 260.35 96.52 90)
@@ -3693,13 +3694,13 @@
     (pin "1" (uuid ae9f096c-d5bf-47e6-85b2-9225b9743178))
     (pin "2" (uuid 1dbe4471-9265-4766-8c9c-f1029dcac3ee))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R7") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R24") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R7") (unit 1)
         )
       )
@@ -3714,7 +3715,7 @@
   (symbol (lib_id "project_library:MC74VHC1GT66") (at 161.29 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cad59388-a89b-4be5-b865-d81c1f5801ce)
-    (property "Reference" "U5" (at 161.29 111.76 0)
+    (property "Reference" "U8" (at 161.29 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MC74VHC1GT66" (at 161.29 114.3 0)
@@ -3732,13 +3733,13 @@
     (pin "3" (uuid 2e8c59d9-d503-4645-8604-7439fd45ad0d))
     (pin "5" (uuid c66c779d-4fd7-41b6-a22a-3e962853f3b4))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "U5") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "U8") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "U5") (unit 1)
         )
       )
@@ -3753,7 +3754,7 @@
   (symbol (lib_id "Device:C") (at 105.41 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb343d82-8d38-4f58-b9d0-03fb811318fc)
-    (property "Reference" "C8" (at 105.41 101.6 90)
+    (property "Reference" "C25" (at 105.41 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 105.41 104.14 90)
@@ -3768,13 +3769,13 @@
     (pin "1" (uuid b94c6295-f4b8-484f-b829-72304f5c8c7d))
     (pin "2" (uuid 5814fce5-de0d-4363-9cdc-b6f7e3b860bd))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C8") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C25") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C8") (unit 1)
         )
       )
@@ -3789,7 +3790,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 154.94 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8f48be5-4dcf-4a7c-8d7b-955decc4960a)
-    (property "Reference" "C18" (at 158.75 175.26 0)
+    (property "Reference" "C31" (at 158.75 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 158.75 177.8 0)
@@ -3804,13 +3805,13 @@
     (pin "1" (uuid 24707891-284b-407a-b1c3-6077f809e091))
     (pin "2" (uuid dbc15d67-b213-4317-8e46-e99dc2ef82c7))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C18") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C31") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C18") (unit 1)
         )
       )
@@ -3825,7 +3826,7 @@
   (symbol (lib_id "power:GND") (at 74.93 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df40c31b-82f8-4e12-aa58-a8d8284c3d59)
-    (property "Reference" "#PWR09" (at 74.93 132.08 0)
+    (property "Reference" "#PWR047" (at 74.93 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 130.81 0)
@@ -3839,13 +3840,13 @@
     )
     (pin "1" (uuid 5515e9c2-7ffd-4e89-8088-46f03bca083d))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR09") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR047") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR09") (unit 1)
         )
       )
@@ -3860,7 +3861,7 @@
   (symbol (lib_id "Device:C") (at 118.11 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6d97802-cbf4-4321-8b80-737a6a8d7ac1)
-    (property "Reference" "C3" (at 121.92 61.595 0)
+    (property "Reference" "C28" (at 121.92 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 121.92 64.135 0)
@@ -3875,13 +3876,13 @@
     (pin "1" (uuid bcb4546f-c17b-430d-8dbe-2d5c1bc5922f))
     (pin "2" (uuid aa0413e0-a8a4-43d4-b4b5-e414c6af7355))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C3") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C28") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C3") (unit 1)
         )
       )
@@ -3896,7 +3897,7 @@
   (symbol (lib_id "Regulator_Switching:MCP16311MS") (at 50.8 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e85ed940-d239-4c29-9a20-c36b2b7a8073)
-    (property "Reference" "U1" (at 50.8 156.21 0)
+    (property "Reference" "U5" (at 50.8 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP16311MS" (at 50.8 158.75 0)
@@ -3917,13 +3918,13 @@
     (pin "7" (uuid d4aace68-da3e-448f-ab3d-76d72f8d818f))
     (pin "8" (uuid 348a3bc1-5def-4f80-9f42-87afd5f215c4))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "U1") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "U5") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "U1") (unit 1)
         )
       )
@@ -3938,7 +3939,7 @@
   (symbol (lib_id "power:GND") (at 90.17 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9198448-615e-4899-a06f-64e197867b1e)
-    (property "Reference" "#PWR012" (at 90.17 135.89 0)
+    (property "Reference" "#PWR049" (at 90.17 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 134.62 0)
@@ -3952,13 +3953,13 @@
     )
     (pin "1" (uuid 0e6fce7b-2c12-4513-bdf7-e88535a3756e))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR012") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR049") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR012") (unit 1)
         )
       )
@@ -3973,7 +3974,7 @@
   (symbol (lib_id "Device:R") (at 105.41 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec4fbf0f-3711-4027-a896-226faff48f94)
-    (property "Reference" "R3" (at 105.41 86.36 90)
+    (property "Reference" "R18" (at 105.41 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "56k" (at 105.41 88.9 90)
@@ -3988,13 +3989,13 @@
     (pin "1" (uuid 81480c15-b6db-4bf7-8bb0-7db80432de35))
     (pin "2" (uuid d51efc13-cb82-4036-af5e-cebde340ed0b))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "R3") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "R18") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "R3") (unit 1)
         )
       )
@@ -4009,7 +4010,7 @@
   (symbol (lib_id "Device:C") (at 44.45 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efb0fd36-14a6-47ef-a44b-ee1619ae9dd0)
-    (property "Reference" "C1" (at 48.26 61.595 0)
+    (property "Reference" "C19" (at 48.26 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 48.26 64.135 0)
@@ -4024,13 +4025,13 @@
     (pin "1" (uuid 0478b2d7-ee21-4c12-b804-8e0074923b61))
     (pin "2" (uuid 8de4caea-0b9b-413c-9669-7625455aceeb))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C1") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C19") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C1") (unit 1)
         )
       )
@@ -4045,7 +4046,7 @@
   (symbol (lib_id "power:GND") (at 63.5 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f22f3671-82da-4c3a-8c29-995a22ba26aa)
-    (property "Reference" "#PWR08" (at 63.5 109.22 0)
+    (property "Reference" "#PWR044" (at 63.5 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 107.95 0)
@@ -4059,13 +4060,13 @@
     )
     (pin "1" (uuid fa6369be-7ea1-4d34-9fdf-0a9edcd3b5dd))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "#PWR08") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "#PWR044") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "#PWR08") (unit 1)
         )
       )
@@ -4080,7 +4081,7 @@
   (symbol (lib_id "Device:C") (at 27.94 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd016144-0a75-4ffe-94ee-9ae0b94692e8)
-    (property "Reference" "C11" (at 31.75 177.165 0)
+    (property "Reference" "C17" (at 31.75 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 31.75 179.705 0)
@@ -4095,13 +4096,13 @@
     (pin "1" (uuid 1a03e8c0-ee68-483c-b5c0-cbc1f5f19dc8))
     (pin "2" (uuid 39412e99-24e0-4f4d-9acf-06bc3cb5f05c))
     (instances
-      (project "driver"
-        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
-          (reference "C11") (unit 1)
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3"
+          (reference "C17") (unit 1)
         )
       )
-      (project "HighLevel"
-        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/a73d4ecd-76d0-4070-b096-d98bdfcbfe09"
+      (project "driver"
+        (path "/f5221982-c21b-423c-ab2e-99f90c668dfa"
           (reference "C11") (unit 1)
         )
       )
@@ -4111,9 +4112,5 @@
         )
       )
     )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
   )
 )
