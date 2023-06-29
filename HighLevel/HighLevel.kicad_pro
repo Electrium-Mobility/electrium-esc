@@ -275,8 +275,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(C13-Pad1)": "VCC",
-      "Net-(U3-VBAT)": "VCC"
+      "Net-(C13-Pad1)": "VCC"
     },
     "netclass_patterns": []
   },
