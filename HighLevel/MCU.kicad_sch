@@ -819,7 +819,6 @@
     )
   )
 
-
   (junction (at 203.2 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 011cb756-a67e-413f-8dbe-e4b208f2b4eb)
   )
@@ -1312,14 +1311,6 @@
   (hierarchical_label "ADC_TEMP3" (shape input) (at 189.23 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f7344d3b-0074-4518-9ea0-097729bd14e6)
-  )
-
-  (netclass_flag "" (length 2.54) (shape round) (at 246.38 19.05 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cc456dec-b252-4262-8636-cb35a76196ad)
-    (property "Netclass" "VCC" (at 247.0785 16.51 0)
-      (effects (font (size 1.27 1.27) italic) (justify left))
-    )
   )
 
   (symbol (lib_id "power:VCC") (at 179.07 30.48 0) (unit 1)
@@ -2054,6 +2045,36 @@
       (project "MCU"
         (path "/f67b84bb-fc24-4057-a4d1-5dd671e1b3ff"
           (reference "Y1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 246.38 19.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e36b191c-22df-420d-a8de-5db22e804e37)
+    (property "Reference" "#PWR085" (at 246.38 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 246.38 15.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 246.38 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 246.38 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a4689c8e-f38c-485c-8fb6-67d7f9d0168d))
+    (instances
+      (project "HighLevel"
+        (path "/26149e3f-2822-4531-a73b-0a61b71078cc/805b2797-9011-4004-9ce6-542e3355d0ef"
+          (reference "#PWR085") (unit 1)
+        )
+      )
+      (project "MCU"
+        (path "/f67b84bb-fc24-4057-a4d1-5dd671e1b3ff"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
