@@ -488,7 +488,7 @@
     ],
     [
       "805b2797-9011-4004-9ce6-542e3355d0ef",
-      "mcu"
+      "MCU"
     ],
     [
       "ff9e4a52-5ad4-4f0c-8d03-dd84459a9ed3",
@@ -497,6 +497,14 @@
     [
       "5eaa5481-838b-4009-ace4-c87ac2329f30",
       "power"
+    ],
+    [
+      "0980d0e3-8eed-4986-8b75-0cbbf4b08c7a",
+      "IMU"
+    ],
+    [
+      "65b28eab-109a-4dc4-85fe-9cab4996bf20",
+      "buck converter"
     ]
   ],
   "text_variables": {}
